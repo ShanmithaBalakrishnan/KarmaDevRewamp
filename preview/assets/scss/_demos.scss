@@ -1,0 +1,59 @@
+/* --------------- Intro --------------- */
+
+.demos{
+
+    .item{
+        position: relative;
+        padding: 15px;
+        border-radius: 15px;
+        background: rgba(255,255,255,.07);
+
+        &:hover{
+
+            .img{
+
+                img{
+                    filter: blur(2px);
+                }
+            }
+
+            .butn{
+                background: $main-color;
+                color: #1d1d1d;
+
+                .icon.invert img{
+                    filter: invert(0);
+                }
+            }
+        }
+
+        .img{
+            border-radius: 15px;
+            overflow: hidden;
+
+            img{
+                transition: all .5s;
+            }
+        }
+
+        .cont{
+            padding: 20px 0 0;
+
+            h6{
+                position: relative;
+                padding-left: 30px;
+
+                &:after{
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background: rgba(255,255,255,.4);
+                    position: absolute;
+                    top: 40%;
+                    left: 10px;
+                }
+            }
+        }
+    }
+}
