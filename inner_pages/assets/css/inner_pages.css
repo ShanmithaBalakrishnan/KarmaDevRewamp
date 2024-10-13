@@ -547,7 +547,8 @@
           border-radius: 30px;
           position: absolute;
           font-size: 14px;
-          color: var(--theme-color);
+          color: #fff;
+          background-color: #ea3d50;
           opacity: 0;
           -webkit-transition: all .4s;
           -o-transition: all .4s;
