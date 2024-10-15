@@ -1,7 +1,7 @@
 :root {
   /* --bg-color: #080f16; */
   --theme-color: #0e0707;
-  --main-color: #7fe85a;
+  --main-color: #ea3d50;
 }
 
 /* --------------- Menu --------------- */
@@ -55,7 +55,7 @@
 /* --------------- header --------------- */
 .header-crv {
   padding-top: 220px;
-  background-image: url(../imgs/header/back.png);
+  /* background-image: url(../imgs/header/back.png); */
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -215,10 +215,10 @@
   font-weight: 600;
 }
 .intro-crv .skills-box .skill-progress .progres.gray {
-  background: #eee;
+  background: #ffbac2;
 }
 .intro-crv .skills-box .skill-progress .progres.dark {
-  background: #4e584a;
+  background: #ca6a74;
 }
 .intro-crv .skills-box .skill-progress .progres.color {
   background: var(--main-color);

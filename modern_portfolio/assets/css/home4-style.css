@@ -467,12 +467,18 @@
   -ms-transform: rotate(-7deg);
   transform: rotate(-7deg);
 }
+.testimonials-mp .gray p{
+  color: #000;
+}
 .testimonials-mp .colorful {
   background: var(--main-color);
   -webkit-transform: rotate(2deg) translateY(80px);
   -ms-transform: rotate(2deg) translateY(80px);
   transform: rotate(2deg) translateY(80px);
   z-index: 3;
+}
+.testimonials-mp .colorful p{
+  color: #000;
 }
 .testimonials-mp .darklen {
   background: #151515;
@@ -482,7 +488,7 @@
   transform: rotate(2deg) translateY(-50px);
 }
 .testimonials-mp .darklen p {
-  color: #d1d1d1;
+  color: #fff;
 }
 .testimonials-mp .lighten {
   background: #fff;
@@ -491,6 +497,9 @@
   -ms-transform: rotate(-7deg);
   transform: rotate(-7deg);
   z-index: 3;
+}
+.testimonials-mp .lighten p{
+  color: #000;
 }
 
 /* --------------- Process --------------- */
@@ -831,7 +840,10 @@ h6 {
   font-size: 14px;
 }
 .butn.butn-bord {
-  border: 1px solid #000;
+  border: 1px solid #fff;
+}
+.butn.butn-bord a span{
+  color: #fff;
 }
 .butn.butn-bord:hover {
   background: #ea3d50;

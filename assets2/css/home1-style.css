@@ -216,7 +216,6 @@
   color: #000;
 }
 
-
 /* --------------- Testimonials --------------- */
 .testimonials-sa {
   position: relative;
@@ -379,7 +378,7 @@
 /* --------------- Contact --------------- */
 .contact-sa .box {
   padding: 120px 60px;
-  background-image: url(../imgs/gr-back.png);
+  background-image: url(../);
   background-size: cover;
   background-position: center center;
   border-radius: 30px;
