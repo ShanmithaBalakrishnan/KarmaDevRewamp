@@ -223,7 +223,7 @@
   .works-ds .swiper-slide {
     width: 75%; }
   .works-ds .sec-head .butn.butn-bord {
-    border: 1px solid rgba(0, 0, 0, 0.3); }
+    border: 1px solid rgba(0, 0, 0); }
     .works-ds .sec-head .butn.butn-bord:hover {
       background: var(--main-color);
       color: #fff; }
@@ -738,7 +738,7 @@ p {
   fill: #1d1d1d; }
 
 .butn.butn-bord {
-  border: 1px solid rgba(255, 255, 255, 0.2); }
+  border: 1px solid #000; }
   .butn.butn-bord:hover {
     background: var(--main-color);
     color: #fff; }

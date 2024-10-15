@@ -1,7 +1,7 @@
 :root {
   --bg-color: #1a1b1e;
   --theme-color: #0e0f11;
-  --main-color: #d0ff71; }
+  --main-color: #fe7d8c; }
 
 /* --------------- Menu --------------- */
 .navbar {
@@ -30,11 +30,10 @@
     backdrop-filter: blur(10px); }
   .navbar .logo {
     padding: 7px 15px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 30px; }
   .navbar .navbar-nav {
     padding: 2px 5px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 30px;
     margin-left: 15px; }
     .navbar .navbar-nav .nav-link {
@@ -43,7 +42,7 @@
       font-size: 14px;
       color: #fff; }
       .navbar .navbar-nav .nav-link.active {
-        background: rgba(255, 255, 255, 0.1); }
+        background: rgb(0, 0, 0); }
   .navbar .topnav .butn {
     padding: 7px 20px;
     background: #fff;

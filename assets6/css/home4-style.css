@@ -37,7 +37,6 @@
 }
 .navbar .logo {
   padding: 7px 15px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 30px;
 }
 .navbar .info {
@@ -840,10 +839,10 @@ p {
   font-size: 14px;
 }
 .butn.butn-bord {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #000;
 }
 .butn.butn-bord:hover {
-  background: #494949;
+  background: #ea3d50;
   color: #fff;
 }
 .butn.butn-bg {
