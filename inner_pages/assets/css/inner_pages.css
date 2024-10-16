@@ -36,6 +36,7 @@
 .navbar .logo {
   padding: 7px 15px;
   border-radius: 30px;
+  border: #fff solid 0px;
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
@@ -192,7 +193,7 @@
   position: absolute;
   bottom: 120px;
   left: -30px;
-  background: var(--main-color);
+  background: #e15767;
   color: #212121;
   padding: 20px 20px;
   border-radius: 15px;
@@ -1411,6 +1412,7 @@
 }
 
 .work-card .card-item {
+  background-color: #fff;
   margin-bottom: 30px;
 }
 .work-card .card-item .img {
@@ -2381,6 +2383,7 @@ p {
 
 .butn.butn-bord {
   border: 1px solid #000;
+  background-color: #000;
 }
 .butn.butn-bord:hover {
   background: #fff;
