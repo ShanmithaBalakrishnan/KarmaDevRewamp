@@ -37,6 +37,7 @@
   padding: 7px 15px;
   border-radius: 30px;
   border: #fff solid 0px;
+  width: 300px;
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
@@ -301,7 +302,7 @@
 }
 .intro-iner .accordion-item .accordion-header button {
   background: transparent;
-  color: #fff;
+  color: #000;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
@@ -311,6 +312,7 @@
 }
 .intro-iner .accordion-item .accordion-header button:after {
   background-image: url(../imgs/plus-solid.svg);
+  color: #000;
   -webkit-filter: invert(1);
   filter: invert(1);
 }
@@ -323,6 +325,7 @@
 }
 .intro-iner .accordion-item .accordion-body p {
   font-size: 14px;
+  color: #18191b;
 }
 
 .team-mp .item {

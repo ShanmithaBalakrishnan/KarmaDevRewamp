@@ -675,7 +675,7 @@ p {
   content: "";
   width: 7px;
   height: 7px;
-  background: #fff;
+  background: #151515;
   border-radius: 50%;
   position: absolute;
   top: 10px;
@@ -684,6 +684,7 @@ p {
 
 .text-indent {
   text-indent: 20%;
+  color: #fff;
 }
 
 .loader-wrap svg {

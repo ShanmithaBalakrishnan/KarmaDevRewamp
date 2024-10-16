@@ -1,7 +1,7 @@
 :root {
   --bg-color: #212121;
   --theme-color: #181818;
-  --main-color: #005cc3;
+  --main-color: #ea3d50;
 }
 
 /* --------------- Menu --------------- */
@@ -35,10 +35,11 @@
   padding: 7px 15px;
   border: 0px solid #fff;
   border-radius: 30px;
+  width: 300px;
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #000;
   border-radius: 30px;
   margin-left: 15px;
 }
@@ -526,7 +527,7 @@
   font-size: 100px;
   font-weight: 600;
   line-height: 1;
-  opacity: 0.1;
+  opacity: 0.5;
 }
 .about-ma .content .item .botm h2 span {
   font-size: 80px;

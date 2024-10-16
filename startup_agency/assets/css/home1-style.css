@@ -419,6 +419,9 @@
 }
 
 /* --------------- Blogs --------------- */
+.blog-sa{
+  margin-bottom: 80px;
+}
 .blog-sa .item .img {
   height: 470px;
   border-radius: 15px;
@@ -428,15 +431,10 @@
   font-size: 14px;
 }
 
-.blog-sa .item .cont .info .date {
-  opacity: 0.5;
-  margin-left: 5px;
-}
-
 /* --------------- Contact --------------- */
 .contact-sa .box {
   padding: 120px 60px;
-  background-image: url(../);
+  background-color: #010105;
   background-size: cover;
   background-position: center center;
   border-radius: 30px;
