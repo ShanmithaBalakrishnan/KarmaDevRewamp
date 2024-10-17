@@ -1,7 +1,7 @@
 :root {
   --bg-color: #151515;
   --theme-color: #000;
-  --main-color: #ea3d50; 
+  --main-color: #ea3d50;
 }
 
 /* --------------- Menu --------------- */
@@ -38,7 +38,7 @@
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
-  border: 1px solid black;
+  border: 0px solid black;
   border-radius: 30px;
   margin-left: 15px;
 }
@@ -52,7 +52,7 @@
   background: black;
   color: #fff;
 }
-.navbar .topnav .butn {  
+.navbar .topnav .butn {
   padding: 7px 20px;
   background: #fff;
   color: #1d1d1d;
@@ -61,7 +61,6 @@
 
 /* --------------- header --------------- */
 .header-ds {
-  /* background-image: url(../imgs/header-bg.png); */
   background-size: cover;
   background-position: bottom;
   background-color: #fff;
@@ -477,7 +476,6 @@
 .pricing-ds .pricing-tabsHead .price-radios .form-check .form-check-input {
   display: none;
 }
-
 
 .pricing-ds .content {
   min-width: 800px;
@@ -914,7 +912,7 @@ p {
   border: 1px solid #000;
   color: #000;
 }
-.butn.butn-bord span{
+.butn.butn-bord span {
   color: #fff;
 }
 .butn.butn-bord:hover {

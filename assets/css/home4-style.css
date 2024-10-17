@@ -66,9 +66,7 @@
 /* --------------- header --------------- */
 .header-mp {
   padding: 180px 0 100px;
-  background-image: -webkit-linear-gradient(280deg, #7fe85a, #fff 80%);
-  background-image: -o-linear-gradient(280deg, #7fe85a, #fff 80%);
-  background-image: linear-gradient(170deg, #7fe85a, #fff 80%);
+  background-color: #fff;
   position: relative;
 }
 .header-mp .brush {

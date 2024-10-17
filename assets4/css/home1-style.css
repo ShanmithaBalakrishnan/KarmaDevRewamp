@@ -18,7 +18,7 @@
   height: 100%;
   overflow: hidden;
   pointer-events: none;
-  /* background-image: ; */
+  background-image: url(../imgs/header/g-back.png);
   background-size: cover;
   z-index: -1;
 }
@@ -43,7 +43,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-image: url(); */
+  background-image: url(../imgs/header/Grid.png);
   background-size: contain;
   background-repeat: repeat;
   z-index: -1;

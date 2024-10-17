@@ -41,7 +41,7 @@
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
-  border: 1px solid #000;
+  border: 0px solid #000;
   border-radius: 30px;
   margin-left: 15px;
 }
@@ -671,7 +671,6 @@
 }
 .services-cst .item .title .list span {
   padding: 7px 12px;
-  background: var(--main-color);
   border-radius: 30px;
   position: absolute;
   font-size: 14px;
