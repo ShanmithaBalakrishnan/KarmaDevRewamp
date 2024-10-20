@@ -195,7 +195,7 @@
   bottom: 120px;
   left: -30px;
   background: #e15767;
-  color: #212121;
+  color: #fff;
   padding: 20px 20px;
   border-radius: 15px;
   z-index: 3;
@@ -2325,7 +2325,7 @@ p {
 
 .crv-butn span {
   background: #EF6172;
-  color: #0e0f11;
+  color: #fff;
 }
 
 .crv-butn .text {

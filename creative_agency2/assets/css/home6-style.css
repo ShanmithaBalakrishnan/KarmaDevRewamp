@@ -142,8 +142,7 @@ section{
 .intro-crv .exp .exp-item {
   font-size: 16px;
   padding: 8px 24px;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0);
+  background: #f0ebeb;
   border-radius: 30px;
   position: absolute;
   top: 30px;
@@ -220,13 +219,13 @@ section{
   font-weight: 600;
 }
 .intro-crv .skills-box .skill-progress .progres.gray {
-  background: #37373770;
+  background: #f0ebeb;
 }
 .intro-crv .skills-box .skill-progress .progres.dark {
-  background: #3e3e3eaa;
+  background: #000;
 }
 .intro-crv .skills-box .skill-progress .progres.color {
-  background: #3c3c3cbe;
+  background: #f0ebeb;
 }
 
 /* --------------- Works --------------- */
@@ -279,7 +278,7 @@ section{
 }
 
 .marq-mp .color-bg {
-  background: var(--main-color);
+  background: #f0ebeb;
   color: #000;
   -webkit-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
@@ -288,7 +287,7 @@ section{
 }
 
 .marq-mp .gray-bg {
-  background: #eee;
+  background: #f0ebeb;
   -webkit-transform: rotate(-2deg);
   color: black;
   -ms-transform: rotate(-2deg);
@@ -811,8 +810,8 @@ h6 {
 }
 
 .box-dark {
-  background: #151515;
-  color: #fff;
+  background: #fff;
+  color: #000;
   position: relative;
   z-index: -1;
 }

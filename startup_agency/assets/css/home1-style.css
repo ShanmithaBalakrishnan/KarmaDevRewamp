@@ -83,7 +83,6 @@
   left: -20vw;
   width: 70vw;
   bottom: 0;
-  background: #010105;
   pointer-events: none;
   border-radius: 50%;
   -webkit-filter: blur(200px);
@@ -219,7 +218,7 @@
   margin-bottom: 30px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
-  background: #797979;
+  background: #151515;
 }
 .work-card .card-item .cont {
   padding: 20px;
@@ -241,7 +240,7 @@
   line-height: 1;
   padding: 7px 12px;
   margin-right: 2px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 30px;
 }
 .work-card .card-item .cont p {
@@ -255,7 +254,7 @@
 
 .work-card .card-item .img{
   border-radius: 15px;
-  background-color: #797979;
+  background-color: #151515;
 }
 /* --------------- Clients --------------- */
 .clients-sa .item {
