@@ -451,10 +451,11 @@ a {
   .butn.butn-rounded {
     border-radius: 30px; }
   .butn.butn-bord {
-    border: 1px solid #ccc; }
+    border: 1px solid #fff; }
     .butn.butn-bord:hover {
       background: #212121;
-      color: #fff; }
+      color: #fff;
+    border: #FFF 1px solid; }
 
 /* ========= [ cursor ]  =========*/
 /* Cursor
