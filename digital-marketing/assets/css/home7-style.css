@@ -684,7 +684,7 @@ p {
 
 .text-indent {
   text-indent: 20%;
-  color: #fff;
+  color: #000;
 }
 
 .loader-wrap svg {
@@ -703,6 +703,7 @@ p {
   padding: 0 20px;
   border-radius: 30px;
   position: relative;
+  color: #fff;
 }
 .crv-butn .text:after {
   content: "";

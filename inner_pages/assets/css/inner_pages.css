@@ -610,12 +610,13 @@
 }
 .intro-cst .states .item span {
   font-size: 16px;
-  color: #aaa;
+  color: #212121;
 }
 .intro-cst .states .item h2 {
   font-size: 100px;
   line-height: 1;
   margin-top: 40px;
+  color: #000;
 }
 .intro-cst .states .item .spn-botm {
   margin-left: 10px;
