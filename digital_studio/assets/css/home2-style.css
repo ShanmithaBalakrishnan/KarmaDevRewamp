@@ -7,13 +7,15 @@
 /* --------------- Menu --------------- */
 .navbar {
   position: absolute;
-  left: 0;
+  left: 80px;
   top: 30px;
   padding: 0;
   margin: 0;
-  width: 100%;
-  background: transparent;
+  width: 90%;
+  background: #c0c0c042;
   z-index: 9999999;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .navbar.nav-scroll {
   padding: 0;
