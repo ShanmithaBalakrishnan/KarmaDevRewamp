@@ -59,9 +59,9 @@
 /* --------------- header --------------- */
 .header-mp {
   padding: 180px 0 100px;
-  background-image: -webkit-linear-gradient(280deg, #7fe85a, #fff 80%);
+  /* background-image: -webkit-linear-gradient(280deg, #7fe85a, #fff 80%);
   background-image: -o-linear-gradient(280deg, #7fe85a, #fff 80%);
-  background-image: linear-gradient(170deg, #7fe85a, #fff 80%);
+  background-image: linear-gradient(170deg, #7fe85a, #fff 80%); */
   position: relative;
 }
 .header-mp .brush {
@@ -90,8 +90,14 @@
   padding: 100px 0 60px;
   position: relative;
 }
+.header-mp .caption .bg-img{
+  position: relative;
+  /* background-image: url(../../../common/imgs/icons/brush1.svg); */
+  background-repeat: no-repeat;
+  z-index: 1;
+}
 .header-mp .caption h1 {
-  font-size: 290px;
+  font-size: 190px;
   line-height: 1.2;
 }
 .header-mp .caption h1 span {
@@ -848,23 +854,27 @@ h6 {
   font-size: 14px;
 }
 .butn.butn-bord {
-  border: 1px solid #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 .butn.butn-bord a span{
-  color: #fff;
+  color: #000;
+}
+.butn.butn-bord a span:hover{
+  color: #000;
 }
 .butn.butn-bord:hover {
-  background: #ea3d50;
+  background: #000;
   color: #fff;
 }
 .butn.butn-bg {
-  background: var(--main-color);
+  background: #000;
   border: 1px solid transparent;
-  color: #fff;
+  color: #000;
 }
 .butn.butn-bg:hover {
   background: transparent;
-  border-color: var(--main-color);
+  border-color: #000;
   color: inherit;
 }
 
