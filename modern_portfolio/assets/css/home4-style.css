@@ -559,7 +559,7 @@
   margin-bottom: 5px;
 }
 .faqs-ds .accordion-item.active {
-  background: var(--main-color);
+  background: #1d1d1d;
 }
 .faqs-ds .accordion-item .accordion-header {
   background: transparent;
@@ -588,6 +588,7 @@
 }
 .faqs-ds .accordion-item .accordion-body p {
   font-size: 14px;
+  color: #fff;
 }
 
 /* --------------- FAQS --------------- */
