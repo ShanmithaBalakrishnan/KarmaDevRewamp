@@ -230,11 +230,14 @@
   line-height: 128px;
   letter-spacing: -4px;
 }
+.services-ds .item .text  {
+  width: fit-content;
+}
 .services-ds .item .text p {
   margin-top: 50px;
   color: #000;
   font-size: 18px;
-  margin-left: 140px !important;
+  /* margin-left: 140px !important; */
 }
 .services-ds .item .icon {
   width: 60px;
