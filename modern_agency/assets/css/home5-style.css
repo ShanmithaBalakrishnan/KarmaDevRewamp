@@ -514,9 +514,8 @@
   display: flex;
 }
 .about-ma .bg-img {
-  height: 100vh;
-  width: 50vw;
-  flex-grow: 70%;
+  height: 120vh;
+  width: 60vw;
 }
 .about-ma .content {
   padding: 60px 60px 0;
