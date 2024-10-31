@@ -262,7 +262,7 @@
   margin: 0 -5px;
 }
 .works-dm .item .img .tags a:hover {
-  background: var(--main-color);
+  background: #ef6172;
 }
 .works-dm .item .img .tags.colorful a {
   background: var(--main-color);
