@@ -15,25 +15,25 @@
     <title> KarmaDev</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./logos/fav.png">
+    <link rel="shortcut icon" href="logos/fav.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Plugins -->
-    <link rel="stylesheet" href="../common/css/plugins.css">
+    <link rel="stylesheet" href="common/css/plugins.css">
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="../common/css/common_style.css">
-    <link rel="stylesheet" href="./startup_agency/assets/css/home1-style.css">
-    <link rel="stylesheet" href="./creative-studio/assets/css/home8-style.css">
-    <link rel="stylesheet" href="./startup_agency/assets/css/home7-style.css">
-    <link rel="stylesheet" href="./digital-marketing/assets/css/home7-style.css">
-    <link rel="stylesheet" href="./inner_pages/assets/css/inner_pages.css">
-    <link rel="stylesheet" href="./modern_portfolio/assets/css/home4-style.css">
-    <link rel="stylesheet" href="/modern_agency/assets/css/home5-style.css">
-    <link rel="stylesheet" href="./digital_studio/assets/css/home2-style.css">
-    <link rel="stylesheet" href="./digital_studio/assets/css/home2-style.css">
+    <link rel="stylesheet" href="common/css/common_style.css">
+    <link rel="stylesheet" href="startup_agency/assets/css/home1-style.css">
+    <link rel="stylesheet" href="creative-studio/assets/css/home8-style.css">
+    <link rel="stylesheet" href="startup_agency/assets/css/home7-style.css">
+    <link rel="stylesheet" href="digital-marketing/assets/css/home7-style.css">
+    <link rel="stylesheet" href="inner_pages/assets/css/inner_pages.css">
+    <link rel="stylesheet" href="modern_portfolio/assets/css/home4-style.css">
+    <link rel="stylesheet" href="modern_agency/assets/css/home5-style.css">
+    <link rel="stylesheet" href="digital_studio/assets/css/home2-style.css">
+    <link rel="stylesheet" href="digital_studio/assets/css/home2-style.css">
 
 </head>
 
@@ -61,6 +61,48 @@
         </div>
     </div>
 
+    <style>
+        .dropbtn {
+            background-color: #fff;
+            color: #000;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 15px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #dddddd4b;
+            border-radius: 15px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
     <!-- ==================== End Loading ==================== -->
 
 
@@ -81,47 +123,68 @@
 
     <!-- ==================== Start Navbar ==================== -->
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff36 ; box-shadow: none;">
         <div class="container">
 
             <!-- Logo -->
-            <a class="logo" href="index.html">
-                <img src="./logos/logo_white.png" alt="logo">
+            <a class="logo" href="#">
+                <img src="logos/logo_white.png" alt="logo" style="width:250px;">
             </a>
 
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn" href="#0">Services </a>
+                        <div class="dropdown-content">
+                            <a href="product_discovery.html">Product Discovery</a>
+                            <a href="web_development.html">Web Development</a>
+                            <a href="app_development.html">App Development</a>
+                            <a href="project_handover.html">Project Handover</a>
+                            <a href="startupPage.html">Startup</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="Ecommerce.html">Ecommerce</a>
+                        <div class="dropdown-content">
+                            <a href="B2bCommerce.html">B2B Commerce</a>
+                            <a href="B2c-Commerce.html">B2C Commerce</a>
+                            <a href="m-commerce.html">M Commerce</a>
+                            <a href="ai-commerce.html">AI in Commerce</a>
+                            <a href="omnichannel-integration.html">Omnichannel Integration</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="startupPage.html">Startup</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#0">Company</a>
+                        <div class="dropdown-content">
+                            <a href="ApproachPage.html">Approach</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#0">Resources</a>
+                        <div class="dropdown-content">
+                            <a href="Blog.html">Blogs</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Ecommerce.html  ">Ecommerce</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./startupPage.html">StartUp</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./ApproachPage.html">Company</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Contact.html">Contact</a>
+                        <a class="nav-link" href="Contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="topnav d-flex align-items-center">
-                <!-- <a href="../inner_pages/contact.html" class="butn butn-rounded">
+                <a href="contact.html" class="butn butn-rounded" target="_blank"
+                    style="background-color: #EF6172; color: #fff;">
                     <div class="d-flex align-items-center">
-                        <span>Start Project</span>
+                        <span>Talk with Our Experts</span>
                         <span class="icon ml-10">
-                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
+                            <img src="common/imgs/icons/arrow-top-right.svg" alt="">
                         </span>
                     </div>
-                </a> -->
-                <div class="menu-icon cursor-pointer" style="color: #000;">
+                </a>
+                <div class="menu-icon cursor-pointer" style="color: #000; background-color: transparent;">
                     <span class="icon ti-align-right"></span>
                 </div>
             </div>
@@ -135,13 +198,12 @@
                 <ul class="main-menu rest">
                     <li>
                         <div class="o-hidden">
-                            <div class="link cursor-pointer dmenu"><span class="fill-" data-text="Home">Home</span>
-
+                            <div class="link cursor-pointer dmenu"><span class="fill-" data-text="Home"><a
+                                        href="index.html">Home</a></span>
                             </div>
                         </div>
 
                     </li>
-
                     <li>
                         <div class="o-hidden">
                             <div class="link cursor-pointer dmenu"><span class="fill-" data-text="Home">Service</span>
@@ -160,10 +222,10 @@
                                     <a href="app_development.html" class="sub-link">App Development</a>
                                 </li>
                                 <li>
-                                    <a href="project_handover.html" class="sub-link">Project Handover</a>
+                                    <a href="product_handover.html" class="sub-link">Project Handover</a>
                                 </li>
                                 <li>
-                                    <a href="startupPage.html" class="sub-link">StartUp</a>
+                                    <a href="startupPage.html" class="sub-link">Startup</a>
                                 </li>
 
                             </ul>
@@ -179,19 +241,19 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href=" " class="sub-link">B2B Commerce</a>
+                                    <a href="B2bCommerce.html" class="sub-link">B2B Commerce</a>
                                 </li>
                                 <li>
-                                    <a href=" " class="sub-link">B2C Commerce</a>
+                                    <a href="B2c-Commerce.html" class="sub-link">B2C Commerce</a>
                                 </li>
                                 <li>
-                                    <a href=" " class="sub-link">M Commerce</a>
+                                    <a href="m-commerce.html" class="sub-link">M Commerce</a>
                                 </li>
                                 <li>
-                                    <a href=" " class="sub-link">AI in Commerce</a>
+                                    <a href="ai-commerce.html" class="sub-link">AI in Commerce</a>
                                 </li>
                                 <li>
-                                    <a href=" " class="sub-link">Omnichannel Integration</a>
+                                    <a href="omnichannel-integration.html" class="sub-link">Omnichannel Integration</a>
                                 </li>
 
                             </ul>
@@ -207,7 +269,7 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="../inner_pages/portfolio-standard.html" class="sub-link">Approach</a>
+                                    <a href="ApproachPage.html" class="sub-link">Approach</a>
                                 </li>
 
                             </ul>
@@ -222,15 +284,15 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="" class="sub-link">Blog </a>
+                                    <a href="Blog.html" class="sub-link">Blog </a>
                                 </li>
-
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div class="o-hidden">
-                            <a href="" class="link"><span class="fill-text" data-text="Contact Us">Contact</span></a>
+                            <a href="Contact.html" class="link"><span class="fill-text"
+                                    data-text="Contact Us">Contact</span></a>
                         </div>
                     </li>
                 </ul>
@@ -238,7 +300,7 @@
             <div class="cont-info valign">
                 <div class="text-center full-width">
                     <div class="logo">
-                        <img src="../common/imgs/Logo-light.svg" alt="">
+                        <img src="assets/imgs/white logo  svg.svg" alt="">
                     </div>
                     <div class="social-icon mt-40">
                         <a href="#"> <i class="fab fa-facebook-f"></i> </a>
@@ -247,11 +309,12 @@
                         <a href="#"> <i class="fab fa-instagram"></i> </a>
                     </div>
                     <div class="item mt-30">
-                        <h5>541 Melville Geek, <br> Palo Alto, CA 94301</h5>
+                        <h5>Covai Tech Park, 4th South Cross St, Kovai Thirunagar, Nehru Nagar East, Coimbatore- 641
+                            014.</h5>
                     </div>
                     <div class="item mt-10">
-                        <h5><a href="#0">Hello@email.com</a></h5>
-                        <h5 class="underline"><a href="#0">+1 840 841 25 69</a></h5>
+                        <h5><a href="mailto:hello@karmadev.in">hello@karmadev.in</a></h5>
+                        <h5 class="underline"><a href="#0">+91 8680818100</a></h5>
                     </div>
                 </div>
             </div>
@@ -279,7 +342,7 @@
                                 <div class="caption">
                                     <h1 style="color: #000; font-size: 92px;">Custom App Development Company <span
                                             class="sub-color"></span></h1>
-                                    <a href="#0" class="butn butn-md butn-bord butn-rounded mt-40">
+                                    <a href="Contact.html" class="butn butn-md butn-bord butn-rounded mt-40">
                                         <div class="d-flex align-items-center">
                                             <span> Build Your App Now</span>
                                             <span class="icon icon pe-7s-play ml-10 fz-20"></span>
@@ -299,11 +362,8 @@
                             <div class="col-lg-6">
                                 <div class="imgs">
                                     <div class="cube">
-                                        <img src="./startup_agency/assets/imgs/header/cube.svg" alt="">
+                                        <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/App%20Dev/1.svg?updatedAt=1730111025261" alt="">
                                     </div>
-                                    <!-- <div class="circle">
-                                        <img src="./startup_agency/assets/imgs/header/circle-badge.svg" alt="">
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -320,11 +380,11 @@
                                 <h6 class="fz-40 text-u ls2 title-font" style="color: #000;">↳ Our Expertise
                                 </h6>
                                 <!-- <div class="ml-auto">
-                                    <a href="../inner_pages/about.html" class="butn butn-md butn-bord butn-rounded">
+                                    <a href="inner_pages/about.html" class="butn butn-md butn-bord butn-rounded">
                                         <div class="d-flex align-items-center">
                                         <span>View More</span>
                                         <span class="icon invert ml-10">
-                                                <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
+                                                <img src="common/imgs/icons/arrow-top-right.svg" alt="">
                                             </span>
                                         </div>
                                     </a>
@@ -375,66 +435,85 @@
                     </div>
                 </section>
 
-
-
-
-
                 <!-- ==================== Start Clients ==================== -->
 
-                <section class="clients-dm mt-100" style="background-color: #212121; height: 100px; padding-top: 25px;">
+                <section class="clients-dm mt-100" style="background-color: #fff; height: 100px; padding-top: 25px;">
                     <div class="main-marq shadow-off">
                         <div class="slide-har st1">
                             <div class="box">
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/1.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/3.svg?updatedAt=1730123458670"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/2.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/1.svg?updatedAt=1730131029291"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/3.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/8.svg?updatedAt=1730131029121"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/4.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/6.svg?updatedAt=1730123458681"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/5.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/7.svg?updatedAt=1730123458345"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/2.svg?updatedAt=1730123458659"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/Untitled%20design/4.svg?updatedAt=1730132596245"
+                                        alt="">
                                 </div>
                             </div>
+
                             <div class="box">
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/1.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/3.svg?updatedAt=1730123458670"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/2.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/1.svg?updatedAt=1730131029291"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/3.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/8.svg?updatedAt=1730131029121"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/4.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/6.svg?updatedAt=1730123458681"
+                                        alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="./digital-marketing/assets/imgs/brands/5.svg" alt="">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/7.svg?updatedAt=1730123458345"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/bg%20logo/2.svg?updatedAt=1730123458659"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/b&g%20logo/Untitled%20design/4.svg?updatedAt=1730132596245"
+                                        alt="">
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
 
                 <!-- ==================== End Clients ==================== -->
-
-
-
-
-
                 <section class="intro-iner section-padding" style="color: #000;">
                     <div class="container">
                         <div class="row justify-content-around">
                             <div class="col-lg-5">
                                 <div class="img-box">
                                     <div class="img fit-img">
-                                        <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/App%20Dev/1.svg?updatedAt=1730111025261"
+                                        <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/App%20Dev/2.png?updatedAt=1730111491783"
                                             alt="">
                                     </div>
                                     <div class="states" style="background-color: #000;">
@@ -535,38 +614,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="content" data-tp-throwable-scene="true">
-                            <div class="item" data-tp-throwable-el="">
-                                <div class="">
-                                    <span>SEO/Marketing</span>
-                                </div>
-                            </div>
-                            <div class="item" data-tp-throwable-el="">
-                                <div class="">
-                                    <span class="bdark">Motion</span>
-                                </div>
-                            </div>
-                            <div class="item" data-tp-throwable-el="">
-                                <div class="icon1">
-                                    <img src="assets/imgs/about/s-icon1.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="item" data-tp-throwable-el="">
-                                <div class="">
-                                    <span class="bred">UI/UX Design</span>
-                                </div>
-                            </div>
-                            <div class="item" data-tp-throwable-el="">
-                                <div class="">
-                                    <img src="assets/imgs/about/s-icon2.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="item" data-tp-throwable-el="">
-                                <div class="">
-                                    <span>Branding</span>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </section>
 
@@ -590,15 +637,6 @@
                                                 services will guide your
                                                 project through a comprehensive app development process that includes
                                                 the following phases.</span>
-                                            <!-- <a href="../inner_pages/contact.html"
-                                                class="butn butn-md butn-bord butn-rounded mt-40">
-                                                <div class="d-flex align-items-center">
-                                                    <span>Start Project</span>
-                                                    <span class="icon ml-10">
-                                                        <i class="fa-solid fa-chevron-right"></i>
-                                                    </span>
-                                                </div>
-                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -636,7 +674,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="text">
-                                                    <p>.We will assign tasks to team members, establish software
+                                                    <p>We will assign tasks to team members, establish software
                                                         requirements specifications (SRS), and create a detailed design
                                                         plan, evaluating efficiency through PERT (Program Evaluation and
                                                         Review Technique) analysis.</p>
@@ -753,14 +791,10 @@
                             <div class="title">
                                 <h2>Front-end</h2>
                             </div>
-                            <div class="text ml-auto">
+                            <div class="text ml-auto" >
                                 <div class="d-flex align-items-center">
-                                    <p>ReactJS, AngularJS, NextJS </p>
-                                    <div>
-                                        <div class="icon invert">
-                                            <img src="../common/imgs/icons/crown-solid.svg" alt="">
-                                        </div>
-                                    </div>
+                                    <p style="margin-right: 175px;">ReactJS, AngularJS, NextJS </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -770,12 +804,8 @@
                             </div>
                             <div class="text ml-auto">
                                 <div class="d-flex align-items-center">
-                                    <p>NodeJS, Python, GoLang,<br> Firebase, Java</p>
-                                    <div>
-                                        <div class="icon invert">
-                                            <img src="../common/imgs/icons/bezier-curve-solid.svg" alt="">
-                                        </div>
-                                    </div>
+                                    <p style="margin-right: 70px;">NodeJS, Python, GoLang,Firebase, Java</p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -785,12 +815,8 @@
                             </div>
                             <div class="text ml-auto">
                                 <div class="d-flex align-items-center">
-                                    <p> React Native, Flutter</p>
-                                    <div>
-                                        <div class="icon invert">
-                                            <img src="../common/imgs/icons/code-solid.svg" alt="">
-                                        </div>
-                                    </div>
+                                    <p style="margin-right: 240px;">React Native, Flutter</p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -800,31 +826,20 @@
                             </div>
                             <div class="text ml-auto">
                                 <div class="d-flex align-items-center">
-                                    <p>Amazon Web Services,<br> Google Cloud Platform, <br>Microsoft Azure, <br>Digital
+                                    <p style="margin-right: 15px;">Amazon Web Services, Google Cloud Platform, <br>Microsoft Azure, Digital
                                         Ocean, Hetzner</p>
-                                    <div>
-                                        <div class="icon invert">
-                                            <img src="../common/imgs/icons/chart-line-solid.svg" alt="">
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
-
-
-
                         <div class="item d-flex align-items-center">
                             <div class="title">
                                 <h2>CI/CD </h2>
                             </div>
                             <div class="text ml-auto">
                                 <div class="d-flex align-items-center">
-                                    <p>GitLab CI, Jenkins CI,<br> GitHub Actions, CircleCI</p>
-                                    <div>
-                                        <div class="icon invert">
-                                            <img src="../common/imgs/icons/chart-line-solid.svg" alt="">
-                                        </div>
-                                    </div>
+                                    <p style="margin-right: 23px;">GitLab CI, Jenkins CI, GitHub Actions, CircleCI</p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -988,10 +1003,10 @@
                             <div class="col-lg-5">
                                 <div class="qoute-icon md-mb50">
                                     <div class="text">
-                                        <img src="./modern_agency/assets/imgs/testim/Vector_Cricle_Text.svg" alt="">
+                                        <img src="modern_agency/assets/imgs/testim/Vector_Cricle_Text.svg" alt="">
                                     </div>
                                     <div class="icon">
-                                        <img src="./modern_agency/assets/imgs/testim/vector_quote.svg" alt="">
+                                        <img src="modern_agency/assets/imgs/testim/vector_quote.svg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -1114,20 +1129,17 @@
                                             <div class="imgs d-flex align-items-center">
                                                 <div>
                                                     <div class="img img1">
-                                                        <img src="assets/imgs/intro/f1.jpg" alt="">
+                                                        <img src="https://ik.imagekit.io/xhtmk8fd5/Revamp/About/sanjay-1.svg?updatedAt=1730042807602"
+                                                            alt="">
                                                     </div>
                                                 </div>
-                                                <div>
-                                                    <div class="img img2">
-                                                        <img src="assets/imgs/intro/f2.jpg" alt="">
-                                                    </div>
-                                                </div>
+
                                             </div>
-                                            <p>Founders of <br> Hubfolio</p>
+                                            <p>Founder of <br> KarmaDev</p>
                                         </div>
                                         <div class="col-lg-7">
                                             <div class="cont">
-                                                <h4>Hire a team of experts to design and engineer your App
+                                                <h4>Hire a team of experts to design and engineer your web application
                                                 </h4>
                                                 <a href="https://calendly.com/sanjayvijayakumar/book-a-call-w-sanjay-vijayakumar-founder-ceo-karmadev-in"
                                                     class="butn butn-md butn-bg butn-rounded mt-40">
@@ -1142,45 +1154,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="brand-ds pt-100 pb-100">
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6 item" style="padding-top: 75px; padding-bottom: 75px;">
-                                            <div class="text-center">
-                                                <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/1.svg" alt="">
-                                                </div>
-                                                <p>4.8/5 Star Rating on <br> Goodfirms</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 item" style="padding-top: 75px; padding-bottom: 75px;">
-                                            <div class="text-center">
-                                                <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/1.svg" alt="">
-                                                </div>
-                                                <p>4.8/5 Star Rating on <br> Goodfirms</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 item" style="padding-top: 75px; padding-bottom: 75px;">
-                                            <div class="text-center">
-                                                <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/1.svg" alt="">
-                                                </div>
-                                                <p>4.8/5 Star Rating on <br> Goodfirms</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 item" style="padding-top: 75px; padding-bottom: 75px;">
-                                            <div class="text-center">
-                                                <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/1.svg" alt="">
-                                                </div>
-                                                <p>4.8/5 Star Rating on <br> Goodfirms</p>
-                                            </div>
-                                        </div>
-                                    
-                                        
-                                        
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1226,12 +1199,12 @@
                                             <div class="imgs d-flex align-items-center">
                                                 <div>
                                                     <div class="img img1">
-                                                        <img src="./digital_studio/assets/imgs/intro/f1.jpg" alt="">
+                                                        <img src="digital_studio/assets/imgs/intro/f1.jpg" alt="">
                                                     </div>
                                                 </div>
                                                 <div>
                                                     <div class="img img2">
-                                                        <img src="./digital_studio/assets/imgs/intro/f2.jpg" alt="">
+                                                        <img src="digital_studio/assets/imgs/intro/f2.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1241,7 +1214,7 @@
                                             <div class="cont">
                                                 <h4>We help business elevate their value through custom software
                                                     development, product design, QA and consulting services.</h4>
-                                                <a href="../inner_pages/about.html" class="butn butn-md butn-bg butn-rounded mt-40">
+                                                <a href="inner_pages/about.html" class="butn butn-md butn-bg butn-rounded mt-40">
                                                     <div class="d-flex align-items-center">
                                                         <span>More About Us</span>
                                                         <span class="icon ml-10">
@@ -1258,7 +1231,7 @@
                                         <div class="col-lg-3 col-md-6 item">
                                             <div class="text-center">
                                                 <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/1.svg" alt="">
+                                                    <img src="digital_studio/assets/imgs/brands/1.svg" alt="">
                                                 </div>
                                                 <p>4.8/5 Star Rating on <br> Goodfirms</p>
                                             </div>
@@ -1266,7 +1239,7 @@
                                         <div class="col-lg-3 col-md-6 item">
                                             <div class="text-center">
                                                 <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/2.svg" alt="">
+                                                    <img src="digital_studio/assets/imgs/brands/2.svg" alt="">
                                                 </div>
                                                 <p>Top 50 Global <br> Companies on Clutch</p>
                                             </div>
@@ -1274,7 +1247,7 @@
                                         <div class="col-lg-3 col-md-6 item">
                                             <div class="text-center">
                                                 <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/3.svg" alt="">
+                                                    <img src="digital_studio/assets/imgs/brands/3.svg" alt="">
                                                 </div>
                                                 <p>95% Job Success <br> on Upwork</p>
                                             </div>
@@ -1282,7 +1255,7 @@
                                         <div class="col-lg-3 col-md-6 item">
                                             <div class="text-center">
                                                 <div class="img">
-                                                    <img src="./digital_studio/assets/imgs/brands/4.svg" alt="">
+                                                    <img src="digital_studio/assets/imgs/brands/4.svg" alt="">
                                                 </div>
                                                 <p>Top 20 Global Team <br> on Behance</p>
                                             </div>
@@ -1436,7 +1409,7 @@
                             </div>
                         </div>
                         <!-- <div class="text-center mt-70">
-                            <a href="../inner_pages/faqs.html" class="butn butn-md butn-bord butn-rounded mt-40">
+                            <a href="inner_pages/faqs.html" class="butn butn-md butn-bord butn-rounded mt-40">
                                 <div class="d-flex align-items-center">
                                     <span>See All Questions</span>
                                     <span class="icon ml-10">
@@ -1568,7 +1541,7 @@
                                             <img src="common/imgs/icons/paper-plane.svg" alt="">
                                         </button>
                                     </div>
-                                    <span>By subscribing, you’re accept our <a href="#0">Privacy Policy</a></span>
+                                    <span>By subscribing, you’re accept our <a href="privacy&policy.html">Privacy Policy</a></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -1586,10 +1559,10 @@
                                             <h6>Quick Links</h6>
                                             <ul>
                                                 <li><a href="index.html">Home</a></li>
-                                                <li><a href="">Service</a></li>
+                                                <li><a href="Ecommerce.html">Service</a></li>
                                                 <li><a href="Casestudypage.html">Case studies</a></li>
-                                                <li><a href="">Resources</a></li>
-                                                <li><a href="">Contact Us</a></li>
+                                                <li><a href="Blog.html">Resources</a></li>
+                                                <li><a href="Contact.html">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1624,23 +1597,16 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="copy d-flex align-items-center md-mb30">
-                                    <div>
-                                        <div class="logo">
-                                            <img src="assets/imgs/Logo-f.svg" alt="">
-                                        </div>
-                                    </div>
                                     <div class="ml-50">
-                                        <h6 style="color: #fff; font-size: 14px;">© 2024 <a href="#0">Hubfolio
-                                                Agency</a>. <br> All Right Reserved</h6>
+                                        <h6 style="color: #fff; font-size: 14px;">© 2024 <a target="_blank" href="https://www.karmadev.in">KarmaDev.in
+                                                </a>. All Right Reserved</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 d-flex justify-content-end">
                                 <div class="links sub-color d-flex justify-content-between">
-                                    <a href="#" class="active">Home</a>
-                                    <a href="inner_pages/portfolio-standard.html">Works</a>
-                                    <a href="inner_pages/about.html">Studio</a>
-                                    <a href="inner_pages/blog-standard.html">News</a>
+                                    <a href="privacy&policy.html" class="active">Privacy & Policy</a>
+                                    <a href="TOS.html" class="active">Terms of Service</a>
                                 </div>
                             </div>
                         </div>
@@ -1656,25 +1622,25 @@
 
 
     <!-- jQuery -->
-    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
-    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+    <script src="common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="common/js/lib/jquery-migrate-3.4.0.min.js"></script>
 
     <!-- plugins -->
-    <script src="../common/js/lib/plugins.js"></script>
+    <script src="common/js/lib/plugins.js"></script>
 
     <!-- GSAP -->
-    <script src="../common/js/gsap_lib/gsap.min.js"></script>
-    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
-    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
-    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+    <script src="common/js/gsap_lib/gsap.min.js"></script>
+    <script src="common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="common/js/gsap_lib/SplitText.min.js"></script>
 
     <!-- common scripts -->
-    <script src="../common/js/common_scripts.js"></script>
+    <script src="common/js/common_scripts.js"></script>
 
     <!-- custom scripts -->
     <!-- <script src="assets/js/scripts.js"></script> -->
-    <script src="./digital-marketing/assets/js/scripts.js"></script>
-    <script src="./modern_portfolio/assets/js/scripts.js    "></script>
+    <script src="digital-marketing/assets/js/scripts.js"></script>
+    <script src="modern_portfolio/assets/js/scripts.js    "></script>
 
 
 </body>
