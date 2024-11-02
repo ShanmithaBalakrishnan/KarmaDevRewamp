@@ -3,7 +3,7 @@
 :root {
   --bg-color: #18191b;
   --theme-color: #0e0f11;
-  --main-color: #EF6172;
+  --main-color: #fa6c7c;
 }
 
 /* --------------- Menu --------------- */
@@ -201,7 +201,7 @@
   z-index: 3;
 }
 .intro-iner .img-box .just-shape {
-  background: #fff;
+  background: var(--theme-color);
   border-radius: 0 0 30px 0;
   width: 200px;
   height: 50px;
@@ -284,7 +284,6 @@
 }
 .intro-iner .img {
   height: 580px;
-  border: #000 solid 1px;
   border-radius: 15px;
 }
 .intro-iner .sec-head {
@@ -676,7 +675,7 @@
   position: absolute;
   font-size: 14px;
   color: #fff;
-  background-color: #F17483;
+  background-color: #ea3d50;
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -2324,7 +2323,7 @@ p {
 }
 
 .crv-butn span {
-  background: #EF6172;
+  background: var(--main-color);
   color: #0e0f11;
 }
 
@@ -2340,7 +2339,7 @@ p {
   content: "";
   width: 30px;
   height: 30px;
-  background: #EF6172;
+  background: var(--main-color);
   position: absolute;
   top: 5px;
   right: -15px;

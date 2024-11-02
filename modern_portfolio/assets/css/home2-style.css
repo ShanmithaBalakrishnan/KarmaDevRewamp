@@ -40,9 +40,9 @@
   height: 48px;
   line-height: 48px;
   text-align: center;
-  color: #fff;
+  color: #151515;
   border: 1px solid #fff;
-  background: #000;
+  background: #fff;
   border-radius: 50%;
   font-size: 16px;
   -webkit-transition: all 0.4s;
@@ -50,7 +50,7 @@
   transition: all 0.4s;
 }
 .header-ds .social-icon a:hover {
-  color: #000;
+  color: #fff;
   background: transparent;
 }
 .header-ds .numb {

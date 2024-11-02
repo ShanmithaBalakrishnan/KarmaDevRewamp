@@ -32,6 +32,7 @@
 }
 .navbar .logo {
   padding: 0px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 30px;
 }
 .navbar .navbar-nav {
@@ -45,7 +46,6 @@
   border-radius: 30px;
   font-size: 14px;
   color: #fff;
-  color: #000;
 }
 .navbar .navbar-nav .nav-link.active {
   background: rgba(255, 255, 255, 0.1);
@@ -219,7 +219,7 @@
   margin-bottom: 30px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
-  background: #797979;
+  background: #c5c3c3;
 }
 .work-card .card-item .cont {
   padding: 20px;
@@ -241,7 +241,7 @@
   line-height: 1;
   padding: 7px 12px;
   margin-right: 2px;
-  border: 1px solid #000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 30px;
 }
 .work-card .card-item .cont p {
@@ -252,14 +252,13 @@
 .work-card .card-item .img {
   padding: 20px;
 }
-
-.work-card .card-item .img{
+.work-card .card-item .img img {
   border-radius: 15px;
-  background-color: #797979;
 }
+
 /* --------------- Clients --------------- */
 .clients-sa .item {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 50%;
   text-align: center;
 }
@@ -269,12 +268,10 @@
 .clients-sa .item .cont .icon {
   width: 40px;
   margin: 0 auto 10px;
-  color: #000;
 }
 .clients-sa .item .cont span {
   font-size: 14px;
   line-height: 20px;
-  color: #000;
 }
 
 /* --------------- Testimonials --------------- */
