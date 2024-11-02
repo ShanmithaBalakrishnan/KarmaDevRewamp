@@ -1,0 +1,20 @@
+/* --------------- Services --------------- */
+.feat {
+  position: relative; }
+  .feat .item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px; }
+    .feat .item .info {
+      padding: 30px;
+      min-height: 200px; }
+    .feat .item .img {
+      position: relative;
+      height: 360px;
+      margin-top: 10px; }
+      .feat .item .img img {
+        -o-object-position: top;
+        object-position: top; }
