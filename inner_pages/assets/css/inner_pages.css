@@ -2120,7 +2120,7 @@
 .contact-pg textarea {
   width: 100%;
   border: 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
   color: #fff;
   padding: 15px 0;
@@ -2181,7 +2181,7 @@
   height: 48px;
   line-height: 48px;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   font-size: 14px;
   -webkit-transition: all 0.4s;
@@ -2189,7 +2189,7 @@
   transition: all 0.4s;
 }
 .footer-sa .contact-info .social-icon a:hover {
-  border-color: #000;
+  border-color: #fff;
 }
 
 .footer-sa .sub-footer .copy p {
