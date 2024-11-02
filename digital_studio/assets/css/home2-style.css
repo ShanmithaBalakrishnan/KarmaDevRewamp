@@ -921,9 +921,14 @@ p {
 .butn.butn-bord {
   border: 1px solid #000;
   border: 1px solid #fff;
-  color: #fff;
+  color: #000;
 }
 .butn.butn-bord span {
+  color: #fff;
+}
+.butn.butn-bord:hover {
+  background: #000;
+  border: 1px solid #fff;
   color: #fff;
 }
 
@@ -931,6 +936,11 @@ p {
   background: #000;
   border: 1px solid #fff;
   color: #fff;
+}
+.butn.butn-bg:hover {
+  background: transparent;
+  border-color: #fff;
+  color: inherit;
 }
 
 .icon.invert img {
