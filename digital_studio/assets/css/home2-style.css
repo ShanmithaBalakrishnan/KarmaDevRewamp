@@ -243,7 +243,6 @@
   width: 30px;
 }
 .services-ds .item .title {
-  color: #000;
   position: relative;
   margin-bottom: -70px;
   -webkit-transition: all 0.4s;
@@ -915,26 +914,25 @@ p {
 
 .butn.butn-bord {
   border: 1px solid #000;
-  border: 1px solid #fff;
   color: #000;
 }
 .butn.butn-bord span {
   color: #fff;
 }
 .butn.butn-bord:hover {
-  background: #000;
-  border: 1px solid #fff;
+  background: #ea3d50;
+  border: 1px solid #ea3d50;
   color: #fff;
 }
 
 .butn.butn-bg {
-  background: #000;
-  border: 1px solid #fff;
+  background: #ea3d50;
+  border: 1px solid transparent;
   color: #fff;
 }
 .butn.butn-bg:hover {
   background: transparent;
-  border-color: #fff;
+  border-color: #ea3d50;
   color: inherit;
 }
 
