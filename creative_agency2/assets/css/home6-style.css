@@ -779,11 +779,9 @@ h6 {
 
 .butn.butn-bord {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  background: #000;
-  color: #fff;
 }
 .butn.butn-bord:hover {
-  background: #000;
+  background: var(--bg-color);
   color: #fff;
 }
 
