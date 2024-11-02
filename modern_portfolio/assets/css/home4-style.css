@@ -420,15 +420,15 @@
   position: relative;
   overflow: visible;
   padding: 150px 0 250px;
-  background-image: url(../../../common/imgs/icons/brush1.svg);
+  background-image: url(../imgs/testim/global.png);
+  background-size: 60%;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 .testimonials-mp .swiper-slide {
   margin-right: -50px;
   width: 400px;
-  height: 700px;
+  height: auto;
 }
 .testimonials-mp .item {
   padding: 40px;
