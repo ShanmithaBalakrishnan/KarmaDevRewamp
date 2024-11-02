@@ -39,6 +39,7 @@
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
+  border: 1px solid #000;
   border-radius: 30px;
   margin-left: 15px;
 }
@@ -46,7 +47,7 @@
   padding: 5px 20px;
   border-radius: 30px;
   font-size: 14px;
-  color: #000;
+  color: #fff;
 }
 .navbar .navbar-nav .nav-link.active {
   background: rgba(255, 255, 255, 0.1);
@@ -163,8 +164,7 @@
 }
 
 .marq-mp .color-bg {
-  background: #f0ebeb;
-  color: #000;
+  background: var(--main-color);
   -webkit-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
@@ -173,8 +173,7 @@
 }
 
 .marq-mp .gray-bg {
-  background: #f0ebeb;
-  color: #000;
+  background: var(--bg-color);
   -webkit-transform: rotate(-4deg);
   -ms-transform: rotate(-4deg);
   transform: rotate(-4deg);
@@ -189,7 +188,7 @@
   content: "";
   width: 12px;
   height: 12px;
-  background: #000;
+  background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;

@@ -198,7 +198,7 @@
 }
 
 .marq-mp .color-bg {
-  background: #f0ebeb;
+  background: var(--bg-color);
   -webkit-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
@@ -207,7 +207,7 @@
 }
 
 .marq-mp .gray-bg {
-  background: #f0ebeb;
+  background: var(--bg-color);
   -webkit-transform: rotate(-4deg);
   -ms-transform: rotate(-4deg);
   transform: rotate(-4deg);
@@ -466,14 +466,12 @@
   -webkit-transform: rotate(-7deg);
   -ms-transform: rotate(-7deg);
   transform: rotate(-7deg);
-  height: fit-content;
 }
 .testimonials-mp .gray p{
   color: #000;
 }
 .testimonials-mp .colorful {
-  height: fit-content;
-  background:#fff;
+  background: linear-gradient( #ea3d50,#F7AEB6, #ffdada);
   -webkit-transform: rotate(2deg) translateY(80px);
   -ms-transform: rotate(2deg) translateY(80px);
   transform: rotate(2deg) translateY(80px);
@@ -483,7 +481,6 @@
   color: #000;
 }
 .testimonials-mp .darklen {
-  height: fit-content;
   background: #151515;
   color: #fff;
   -webkit-transform: rotate(2deg) translateY(-50px);
@@ -494,7 +491,6 @@
   color: #fff;
 }
 .testimonials-mp .lighten {
-  height: fit-content;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transform: rotate(-7deg);
@@ -507,9 +503,6 @@
 }
 
 /* --------------- Process --------------- */
-.process-mp{
-  background-color: #fff;
-}
 .process-mp .sec-head .butn {
   border-color: #fff;
 }
@@ -539,7 +532,6 @@
 .process-mp .item .botm {
   margin-top: 60px;
   font-size: 40px;
-  color: #fff;
 }
 .process-mp .item .botm span {
   opacity: 0.5;
