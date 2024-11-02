@@ -64,48 +64,6 @@
         </div>
     </div>
 
-    <style>
-        .dropbtn {
-            background-color: #fff;
-            color: #000 !important;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-        }
-
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #fff;
-            min-width: 200px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-            border-radius: 15px;
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            font-size: 14px;
-        }
-
-        .dropdown-content a:hover {
-            background-color: #dddddd4b;
-            border-radius: 15px;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
-
     <!-- ==================== End Loading ==================== -->
 
 
@@ -126,68 +84,47 @@
 
     <!-- ==================== Start Navbar ==================== -->
 
-    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff36 ; box-shadow: none;">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
 
             <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="logos/logo_white.png" alt="logo" style="width:250px;">
+            <a class="logo" href="index.html">
+                <img src="./logos/logo_white.png" alt="logo">
             </a>
 
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn" href="#0">Services </a>
-                        <div class="dropdown-content">
-                            <a href="product_discovery.html">Product Discovery</a>
-                            <a href="web_development.html">Web Development</a>
-                            <a href="app_development.html">App Development</a>
-                            <a href="project_handover.html">Project Handover</a>
-                            <a href="startupPage.html">Startup</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn" href="Ecommerce.html">Ecommerce</a>
-                        <div class="dropdown-content">
-                            <a href="B2bCommerce.html">B2B Commerce</a>
-                            <a href="B2c-Commerce.html">B2C Commerce</a>
-                            <a href="m-commerce.html">M Commerce</a>
-                            <a href="ai-commerce.html">AI in Commerce</a>
-                            <a href="omnichannel-integration.html">Omnichannel Integration</a>
-                        </div>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link dropbtn" href="startupPage.html">Startup</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn" href="#0">Company</a>
-                        <div class="dropdown-content">
-                            <a href="ApproachPage.html">Approach</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn" href="#0">Resources</a>
-                        <div class="dropdown-content">
-                            <a href="Blog.html">Blogs</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link dropbtn" href="Contact.html">Contact</a>
+                        <a class="nav-link" href="./Ecommerce.html  ">Ecommerce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./startupPage.html">StartUp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ApproachPage.html">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="topnav d-flex align-items-center">
-                <a href="contact.html" class="butn butn-rounded" target="_blank"
-                    style="background-color: #EF6172; color: #fff;">
+                <!-- <a href="../inner_pages/contact.html" class="butn butn-rounded">
                     <div class="d-flex align-items-center">
-                        <span>Talk with Our Experts</span>
+                        <span>Start Project</span>
                         <span class="icon ml-10">
-                            <img src="common/imgs/icons/arrow-top-right.svg" alt="">
+                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
                         </span>
                     </div>
-                </a>
-                <div class="menu-icon cursor-pointer" style="color: #000; background-color: transparent;">
+                </a> -->
+                <div class="menu-icon cursor-pointer">
                     <span class="icon ti-align-right"></span>
                 </div>
             </div>
@@ -201,12 +138,13 @@
                 <ul class="main-menu rest">
                     <li>
                         <div class="o-hidden">
-                            <div class="link cursor-pointer dmenu"><span class="fill-" data-text="Home"><a
-                                        href="index.html">Home</a></span>
+                            <div class="link cursor-pointer dmenu"><span class="fill-" data-text="Home">Home</span>
+
                             </div>
                         </div>
 
                     </li>
+
                     <li>
                         <div class="o-hidden">
                             <div class="link cursor-pointer dmenu"><span class="fill-" data-text="Home">Service</span>
@@ -216,19 +154,19 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="product_discovery.html" class="sub-link">Product Discovery</a>
+                                    <a href="./product_discovery.html" class="sub-link">Product Discovery</a>
                                 </li>
                                 <li>
-                                    <a href="web_development.html" class="sub-link">Web Development</a>
+                                    <a href="./web_development.html" class="sub-link">Web Development</a>
                                 </li>
                                 <li>
-                                    <a href="app_development.html" class="sub-link">App Development</a>
+                                    <a href="./app_development.html" class="sub-link">App Development</a>
                                 </li>
                                 <li>
-                                    <a href="product_handover.html" class="sub-link">Project Handover</a>
+                                    <a href="./product_handover.html" class="sub-link">Project Handover</a>
                                 </li>
                                 <li>
-                                    <a href="startupPage.html" class="sub-link">Startup</a>
+                                    <a href="./startupPage.html" class="sub-link">StartUp</a>
                                 </li>
 
                             </ul>
@@ -244,19 +182,19 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="B2bCommerce.html" class="sub-link">B2B Commerce</a>
+                                    <a href=" " class="sub-link">B2B Commerce</a>
                                 </li>
                                 <li>
-                                    <a href="B2c-Commerce.html" class="sub-link">B2C Commerce</a>
+                                    <a href=" " class="sub-link">B2C Commerce</a>
                                 </li>
                                 <li>
-                                    <a href="m-commerce.html" class="sub-link">M Commerce</a>
+                                    <a href=" " class="sub-link">M Commerce</a>
                                 </li>
                                 <li>
-                                    <a href="ai-commerce.html" class="sub-link">AI in Commerce</a>
+                                    <a href=" " class="sub-link">AI in Commerce</a>
                                 </li>
                                 <li>
-                                    <a href="omnichannel-integration.html" class="sub-link">Omnichannel Integration</a>
+                                    <a href=" " class="sub-link">Omnichannel Integration</a>
                                 </li>
 
                             </ul>
@@ -272,7 +210,7 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="ApproachPage.html" class="sub-link">Approach</a>
+                                    <a href="../inner_pages/portfolio-standard.html" class="sub-link">Approach</a>
                                 </li>
 
                             </ul>
@@ -287,15 +225,15 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="Blog.html" class="sub-link">Blog </a>
+                                    <a href="" class="sub-link">Blog </a>
                                 </li>
+
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div class="o-hidden">
-                            <a href="Contact.html" class="link"><span class="fill-text"
-                                    data-text="Contact Us">Contact</span></a>
+                            <a href="" class="link"><span class="fill-text" data-text="Contact Us">Contact</span></a>
                         </div>
                     </li>
                 </ul>
@@ -303,7 +241,7 @@
             <div class="cont-info valign">
                 <div class="text-center full-width">
                     <div class="logo">
-                        <img src="logos/logo_white.png" alt="">
+                        <img src="../common/imgs/Logo-light.svg" alt="">
                     </div>
                     <div class="social-icon mt-40">
                         <a href="#"> <i class="fab fa-facebook-f"></i> </a>
@@ -312,12 +250,11 @@
                         <a href="#"> <i class="fab fa-instagram"></i> </a>
                     </div>
                     <div class="item mt-30">
-                        <h5>Covai Tech Park, 4th South Cross St, Kovai Thirunagar, Nehru Nagar East, Coimbatore- 641
-                            014.</h5>
+                        <h5>541 Melville Geek, <br> Palo Alto, CA 94301</h5>
                     </div>
                     <div class="item mt-10">
-                        <h5><a href="mailto:hello@karmadev.in">hello@karmadev.in</a></h5>
-                        <h5 class="underline"><a href="#0">+91 8680818100</a></h5>
+                        <h5><a href="#0">Hello@email.com</a></h5>
+                        <h5 class="underline"><a href="#0">+1 840 841 25 69</a></h5>
                     </div>
                 </div>
             </div>
@@ -352,7 +289,9 @@
                             </div>
                         </div>
                         <div class="caption text-center">
-                            <h1 class="title-font">Case Studies</h1>
+                            <h1 class="title-font">Creative Studio</h1>
+                            <h4 class="mt-30 fw-300">Reliable Design Studio <br> where can make your ideas come true
+                            </h4>
                         </div>
                     </div>
                 </header>
@@ -449,7 +388,23 @@
                         <div class="container-fluid">
                             <div class="sec-head text-center mb-80">
                                 <h2><span style="color: #ef6172;">Client’s</span> reviews</h2>
-                                
+                                <div class="gl-rate d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="assets/imgs/testim/logo-clutch.svg" alt="">
+                                    </div>
+                                    <div class="cont">
+                                        <h6>4.9/5
+                                            <span class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </h6>
+                                        <p>Based on 24 reviews on <a href="#0">Clutch</a></p>
+                                    </div>
+                                </div>
                             </div>
                             <div
                                 class="swiper testim-swiper swiper-container swiper-container-initialized swiper-container-horizontal">
@@ -467,7 +422,11 @@
                                                     <p>CEO &amp; Founder, Archin Studio</p>
                                                     <span>B. Gordon</span>
                                                 </div>
-                                                
+                                                <div class="ml-auto">
+                                                    <div class="img-author fit-img">
+                                                        <img src="assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -483,7 +442,11 @@
                                                     <p>Project Managerment at Zumar Inc</p>
                                                     <span>d. Szoboslai</span>
                                                 </div>
-                                                
+                                                <div class="ml-auto">
+                                                    <div class="img-author fit-img">
+                                                        <img src="assets/imgs/testim/avatar2.jpg" alt="">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -498,7 +461,11 @@
                                                     <p>Marketing Manager, OKG</p>
                                                     <span>T. Morthy</span>
                                                 </div>
-                                               
+                                                <div class="ml-auto">
+                                                    <div class="img-author fit-img">
+                                                        <img src="assets/imgs/testim/avatar3.jpg" alt="">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -513,7 +480,11 @@
                                                     <p>President, Newz Jsc</p>
                                                     <span>J. Arron</span>
                                                 </div>
-                                                
+                                                <div class="ml-auto">
+                                                    <div class="img-author fit-img">
+                                                        <img src="assets/imgs/testim/avatar4.jpg" alt="">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -529,7 +500,11 @@
                                                     <p>CEO &amp; Founder, Archin Studio</p>
                                                     <span>B. Gordon</span>
                                                 </div>
-                                                
+                                                <div class="ml-auto">
+                                                    <div class="img-author fit-img">
+                                                        <img src="assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -545,7 +520,11 @@
                                                     <p>Project Managerment at Zumar Inc</p>
                                                     <span>d. Szoboslai</span>
                                                 </div>
-                                                
+                                                <div class="ml-auto">
+                                                    <div class="img-author fit-img">
+                                                        <img src="assets/imgs/testim/avatar2.jpg" alt="">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -663,11 +642,41 @@
                         </div>
                     </div>
                 </section>
+                <!-- ==================== Start Intro ==================== -->
+
+
+
+                <!-- ==================== End Intro ==================== -->
+
+
+
+                <!-- ==================== Start services ==================== -->
+
+
+
+                <!-- ==================== End services ==================== -->
+
+
+
+                <!-- ==================== Start Team ==================== -->
+
+
+                <!-- ==================== End Team ==================== -->
+
+
+
+                <!-- ==================== Start dark box ==================== -->
+
+
+
+                <!-- ==================== End dark box ==================== -->
+
 
             </main>
 
 
             <!-- ==================== Start Footer ==================== -->
+
             <footer class="footer-ds bord-thin-top-light">
                 <div class="container section-padding">
                     <div class="row justify-content-between">
@@ -682,7 +691,7 @@
                                             <img src="common/imgs/icons/paper-plane.svg" alt="">
                                         </button>
                                     </div>
-                                    <span>By subscribing, you’re accept our <a href="privacy&policy.html">Privacy Policy</a></span>
+                                    <span>By subscribing, you’re accept our <a href="#0">Privacy Policy</a></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -700,18 +709,17 @@
                                             <h6>Quick Links</h6>
                                             <ul>
                                                 <li><a href="index.html">Home</a></li>
-                                                <li><a href="Ecommerce.html">Service</a></li>
+                                                <li><a href="">Service</a></li>
                                                 <li><a href="Casestudypage.html">Case studies</a></li>
-                                                <li><a href="Blog.html">Resources</a></li>
-                                                <li><a href="Contact.html">Contact Us</a></li>
+                                                <li><a href="">Resources</a></li>
+                                                <li><a href="">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="item sm-mb60">
                                             <h6>Address</h6>
-                                            <p style="color: #fff;">Covai Tech Park, 4th South Cross St, Kovai
-                                                Thirunagar, Nehru Nagar East,
+                                            <p style="color: #fff;">Covai Tech Park, 4th South Cross St, Kovai Thirunagar, Nehru Nagar East,
                                                 Coimbatore- 641 014.</p>
                                         </div>
                                     </div>
@@ -738,16 +746,22 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="copy d-flex align-items-center md-mb30">
+                                    <div>
+                                        <div class="logo">
+                                            <img src="assets/imgs/Logo-f.svg" alt="">
+                                        </div>
+                                    </div>
                                     <div class="ml-50">
-                                        <h6 style="color: #fff; font-size: 14px;">© 2024 <a target="_blank" href="https://www.karmadev.in">KarmaDev.in
-                                                </a>. All Right Reserved</h6>
+                                        <h6 style="color: #fff; font-size: 14px;">© 2024 <a href="#0">Hubfolio Agency</a>. <br> All Right Reserved</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 d-flex justify-content-end">
                                 <div class="links sub-color d-flex justify-content-between">
-                                    <a href="privacy&policy.html" class="active">Privacy & Policy</a>
-                                    <a href="TOS.html" class="active">Terms of Service</a>
+                                    <a href="#" class="active">Home</a>
+                                    <a href="inner_pages/portfolio-standard.html">Works</a>
+                                    <a href="inner_pages/about.html">Studio</a>
+                                    <a href="inner_pages/blog-standard.html">News</a>
                                 </div>
                             </div>
                         </div>
@@ -761,6 +775,15 @@
         </div>
 
     </div>
+
+
+
+
+
+
+
+
+
 
     <!-- jQuery -->
     <script src="./common/js/lib/jquery-3.6.0.min.js"></script>
@@ -782,8 +805,6 @@
     <!-- <script src="./assets2/js/hscroll.js"></script> -->
     <script src="./assets2/js/scripts.js"></script>
     <script src="./assets6/js/scripts.js"></script>
-    <script src="startup_agency/assets/js/scripts.js"></script>
-    <script src="modern_portfolio/assets/js/scripts.js"></script>
 
 </body>
 
