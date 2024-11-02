@@ -516,12 +516,10 @@
 .about-ma .bg-img {
   height: 100vh;
   width: 50vw;
-  flex-grow: 70%;
 }
 .about-ma .content {
   padding: 60px 60px 0;
   width: 50vw;
-  flex-grow: 30%;
 }
 .about-ma .content .item {
   margin-top: 200px;
