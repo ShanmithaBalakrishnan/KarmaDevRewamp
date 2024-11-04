@@ -106,16 +106,15 @@
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: 400;
-  color: #000;
+  color: #ef6172;
 }
 .header-ds .social-icon a {
   width: 48px;
   height: 48px;
   line-height: 48px;
   text-align: center;
-  color: #fff;
-  border: 1px solid #000;
-  background: #000;
+  color: #000;
+  background: #fff;
   border-radius: 50%;
   font-size: 16px;
   -webkit-transition: all 0.4s;
@@ -125,6 +124,7 @@
 .header-ds .social-icon a:hover {
   color: #000;
   background: transparent;
+  border: 1px solid #000;
 }
 .header-ds .numb {
   padding-top: 50px;
