@@ -93,7 +93,7 @@
   padding: 180px 0 80px;
   min-height: 800px;
 }
-.header-ds .text p{
+.header-ds .text p {
   color: #000;
 }
 .header-ds .caption h1 {
@@ -136,7 +136,7 @@
   width: min-content;
 }
 .header-ds .numb h2 {
-  font-size: 96px; 
+  font-size: 96px;
   line-height: 96px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -146,4 +146,23 @@
   line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+/* --------------- Clients --------------- */
+.clients-sa{
+  background-color: #fff;
+}
+.clients-sa .sub-head{
+  color: #000;
+}
+.clients-sa .item {
+  /* border: 1px solid #000; */
+  border-radius: 50%;
+  text-align: center;
+}
+.clients-sa .item .img {
+  width: 100px;
+}
+.clients-sa .item .cont .icon {
+  width: 40px;
+  margin: 0 auto 10px;
 }
