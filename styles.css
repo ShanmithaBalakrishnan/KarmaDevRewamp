@@ -4,6 +4,15 @@
   --main-color: #ef6172;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+}
+
 /* --------------- Menu --------------- */
 .navbar {
   position: absolute;
@@ -166,7 +175,7 @@
   width: 40px;
   margin: 0 auto 10px;
 }
-
+/* --------------- Service --------------- */
 .services-cst {
   background-color: #fff;
   position: relative;
@@ -326,9 +335,10 @@
   -ms-transform: translateX(0) translateY(0);
   transform: translateX(0) translateY(0);
 }
+
 /* --------------- Services --------------- */
 .services-dm {
-  background-color: #fff;
+  /* background-color: #fff; */
   position: relative;
   z-index: 3;
 }
@@ -382,7 +392,7 @@
 .services-dm .item:hover p {
   opacity: 1;
 }
-
+/* --------------- Buttons --------------- */
 .crv-butn span {
   background:#000;
   color: #fff;
