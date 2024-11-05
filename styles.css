@@ -459,6 +459,10 @@ body {
   color: #000;
   position: relative;
 }
+.intro-iner h3 {
+  font-size: 40px;
+  letter-spacing: -2px;
+}
 .intro-iner .content {
   position: absolute;
   bottom: 0;
@@ -861,4 +865,87 @@ body {
 }
 .footer-ds .sub-footer .links .active {
   color: #fff;
+}
+
+/* ====================== [ Start Responsive ] ====================== */
+@media screen and (max-width: 992px) {
+  .header-ds .caption {
+    text-align: center;
+  }
+  .header-ds .text {
+    text-align: center;
+  }
+  .header-ds .text p {
+    width: 80%;
+    margin: auto;
+  }
+  .services-ds .item .title h2 {
+    font-size: 80px;
+    line-height: 1.2;
+  }
+  .pricing-ds .sec-head .d-flex {
+    display: block !important;
+  }
+  .pricing-ds .sec-head .d-flex .ml-auto {
+    margin-top: 30px;
+  }
+  .pricing-ds .content .price-foot .price-foot-item .butn span:first-of-type {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec-head {
+    display: block !important;
+  }
+  .sec-head h2 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .sec-head .butn {
+    margin-top: 15px;
+  }
+  .header-ds .caption h1,
+  .header-ds .numb h2 {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+  .header-ds .numb {
+    display: block !important;
+  }
+  .header-ds .numb > div {
+    display: block;
+    width: 100%;
+  }
+  .header-ds .numb .ml-auto {
+    margin: 30px 0 0 0 !important;
+  }
+  .header-ds .numb span br {
+    display: none;
+  }
+  .services-cst .item .title h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+  .services-cst .item .title .list {
+    display: none;
+  }
+  .services-cst .item .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .services-cst .item .icon img {
+    width: 25px;
+  }
+  .intro-crv .exp h2 {
+    margin-bottom: 0;
+    font-size: 40vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro-crv .exp h2 {
+    font-size: 70vw;
+  }
 }
