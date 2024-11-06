@@ -1608,6 +1608,24 @@ p {
   .about-ma .content .item {
     margin-top: 140px;
   }
+  .process-mp .item .d-flex {
+    display: block !important;
+  }
+  .process-mp .item .text {
+    padding-left: 0;
+  }
+  .process-mp .item .botm {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .process-mp .item .botm h3 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .process-mp .item .botm span {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1696,5 +1714,18 @@ p {
   }
   .header-sa .imgs .circle {
     width: 200px;
+  }
+  .blog-sa .item .img {
+    height: 300px;
+    border-radius: 15px;
+  }
+  .blog-sa h3 {
+    font-size: 28px;
+  }
+  .about-ma h3 {
+    font-size: 28px;
+  }
+  .about-ma .content .item {
+    margin-top: -80px;
   }
 }
