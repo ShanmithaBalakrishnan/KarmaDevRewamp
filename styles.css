@@ -1499,7 +1499,13 @@ p {
   background: #fff;
   color: #212121;
 }
-
+.process-mp .sec-head span{
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #ef6172;
+  font-size: 65px;
+  font-weight: 400;
+}
 .process-mp .item {
   padding: 40px;
   border-radius: 10px;
@@ -1526,7 +1532,171 @@ p {
 .process-mp .item .botm span {
   opacity: 0.5;
 }
+/* --------------- header --------------- */
+.header-ma .caption {
+  padding: 120px 0;
+  position: relative;
+}
+.header-ma .caption h1 {
+  width: 100%;
+  font-size: 80px;
+  line-height: 1;
+}
+.header-ma .caption .text {
+  padding: 40px 40px 0 0;
+  text-wrap: pretty;
+}
+.header-ma .caption .img {
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  width: 220px;
+}
+.header-ma .caption .img .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 80px;
+}
 
+.header-ma .mimg {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.header-ma .mimg .lg-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  -webkit-clip-path: url(#svgTextPath);
+  clip-path: url(#svgTextPath);
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  -webkit-transform: translateX(30%) translateY(60%);
+  -ms-transform: translateX(30%) translateY(60%);
+  transform: translateX(30%) translateY(60%);
+}
+.header-ma .mimg .lg-text span {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.services-mp .sec-head h2 span {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #ef6172;
+  font-size: 100px;
+}
+.services-mp .sub-head:after {
+  background: #fff !important;
+}
+
+.services-mp .serv-title .tab-title {
+  opacity: 0.5;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.services-mp .serv-title .tab-title h2 {
+  font-size: 100px;
+  line-height: 120px;
+  margin: 10px 0;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.services-mp .serv-title .tab-title.current {
+  opacity: 1;
+}
+
+.services-mp .content {
+  position: relative;
+}
+.services-mp .content .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.services-mp .content .item:first-of-type {
+  position: static;
+}
+.services-mp .content .item.current {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.services-mp .content .item .img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.services-mp .content .item .cont {
+  margin-top: 30px;
+}
+.services-mp .content .item .cont span {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+/* --------------- Clients --------------- */
+.brands-mp .item {
+  position: relative;
+  display: inline-block;
+  padding: 0 60px;
+  margin-top: 60px;
+}
+.brands-mp .item:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--main-color);
+  border-radius: 2px;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.brands-mp .item.nodot:after {
+  display: none;
+}
+.brands-mp .item:hover .icon {
+  opacity: 1;
+  visibility: visible;
+}
+.brands-mp .item h2 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 64px;
+  line-height: 64px;
+}
+.brands-mp .item .icon {
+  width: 200px;
+  position: absolute;
+  top: -60px;
+  right: -40px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
   .header-ds .caption {
@@ -1635,6 +1805,15 @@ p {
   .about-ma .content .item {
     margin-top: -80px;
   }
+  .header-ma .caption h1 {
+    font-size: 60px;
+  }
+  .header-ma .caption .img {
+    width: 175px;
+  }
+  .header-ma .mimg .lg-text text {
+    font-size: 140px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1736,5 +1915,30 @@ p {
   }
   .about-ma .content .item {
     margin-top: -80px;
+  }
+  .blog-sa .item .img {
+    height: 250px;
+    border-radius: 15px;
+  }
+  .header-ma .caption {
+    display: block !important;
+    padding: 140px 0 80px;
+  }
+  .header-ma .caption h1 {
+    font-size: 45px;
+  }
+  .header-ma .mimg {
+    height: 400px;
+  }
+  .services-mp .serv-title .tab-title h2 {
+    font-size: 65px;
+    line-height: 1.2;
+  }
+  .brands-mp .item:after {
+    display: none;
+  }
+  .brands-mp .item h2 {
+    font-size: 40px;
+    line-height: 1.2;
   }
 }
