@@ -1626,6 +1626,15 @@ p {
   .process-mp .item .botm span {
     font-size: 30px;
   }
+  .blog-sa h3 {
+    font-size: 28px;
+  }
+  .about-ma h3 {
+    font-size: 28px;
+  }
+  .about-ma .content .item {
+    margin-top: -80px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1716,7 +1725,7 @@ p {
     width: 200px;
   }
   .blog-sa .item .img {
-    height: 300px;
+    height: 250px;
     border-radius: 15px;
   }
   .blog-sa h3 {
