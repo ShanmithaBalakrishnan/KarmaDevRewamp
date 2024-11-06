@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Six+Caps&display=swap');
 
 :root {
   --bg-color: #eeeeee;
@@ -257,6 +258,10 @@ p {
   background-color: #fff;
   position: relative;
   z-index: 3;
+}
+.services-cst .sub-head {
+  font-size: 40px;
+  font-family: "Six Caps", sans-serif;
 }
 .services-cst .sub-head:after {
   background: #aaa !important;
@@ -722,6 +727,52 @@ p {
 }
 .intro-iner .accordion-item .accordion-body p {
   font-size: 14px;
+}
+/* --------------- Intro --------------- */
+.intro-cst .title-font{
+  font-family: "Six Caps", sans-serif;
+}
+.intro-cst .text h5 {
+  text-align: justify;
+}
+.intro-cst .states .item {
+  position: relative;
+  padding-left: 60px;
+}
+.intro-cst .states .item {
+  position: relative;
+  padding-left: 60px;
+}
+.intro-cst .states .item:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 40px;
+  border-bottom: 1px solid #3a3a3a;
+}
+.intro-cst .states .item:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  bottom: 0;
+  border-left: 1px solid #3a3a3a;
+}
+.intro-cst .states .item span {
+  font-size: 16px;
+  color: #aaa;
+}
+.intro-cst .states .item h2 {
+  font-size: 140px;
+  line-height: 1;
+  margin-top: 40px;
+  font-weight: 500;
+  font-family: "Six Caps", sans-serif;
+}
+.intro-cst .states .item .spn-botm {
+  margin-left: 10px;
+  color: #3a3a3a;
 }
 /* --------------- Services --------------- */
 .intro-crv .sec-head h3 {
@@ -1499,7 +1550,7 @@ p {
   background: #fff;
   color: #212121;
 }
-.process-mp .sec-head span{
+.process-mp .sec-head span {
   font-family: "Playfair Display", serif;
   font-style: italic;
   color: #ef6172;
