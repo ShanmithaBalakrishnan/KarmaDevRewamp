@@ -260,6 +260,7 @@ p {
   z-index: 3;
 }
 .services-cst .sub-head {
+  line-height: 40px;
   font-size: 40px;
   font-family: "Six Caps", sans-serif;
 }
@@ -1587,7 +1588,26 @@ p {
   opacity: 0.5;
   margin-left: 5px;
 }
-
+/* --------------- Clients --------------- */
+.clients-sa .title-font {
+  font-size: 32px !important;
+}
+.clients-sa .item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
+}
+.clients-sa .item .img {
+  width: 100px;
+}
+.clients-sa .item .cont .icon {
+  width: 40px;
+  margin: 0 auto 10px;
+}
+.clients-sa .item .cont span {
+  font-size: 14px;
+  line-height: 20px;
+}
 /* --------------- Process --------------- */
 .process-mp .sec-head .butn {
   border-color: #fff;
