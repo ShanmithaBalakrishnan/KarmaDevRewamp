@@ -1452,6 +1452,67 @@ p {
   margin: 0 10px;
 }
 /* --------------- header --------------- */
+.header-mp {
+  padding: 180px 0 100px;
+  /* background-image: -webkit-linear-gradient(280deg, #7fe85a, #fff 80%);
+  background-image: -o-linear-gradient(280deg, #7fe85a, #fff 80%);
+  background-image: linear-gradient(170deg, #7fe85a, #fff 80%); */
+  position: relative;
+}
+.header-mp .brush {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+}
+.header-mp .numb {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header-mp .numb h2 {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.header-mp .numb span {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-wrap: pretty;
+}
+.header-mp .caption {
+  padding: 100px 0 60px;
+  position: relative;
+}
+.header-mp .caption h1 {
+  font-size: 200px;
+  line-height: 1.2;
+}
+.header-mp .caption h1 span {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.header-mp .caption .union {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 180px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 50%;
+}
+.header-mp .caption .union .icon {
+  width: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+/* --------------- header --------------- */
 .header-sa {
   min-height: 100vh;
   padding: 40px 0 40px;
@@ -1951,7 +2012,7 @@ p {
   color: #000;
 }
 /* --------------- FAQS --------------- */
-.faqs-ds .accordion-item {
+.accordion-item {
   background: #000;
   border-radius: 10px;
   border: 0;
@@ -1974,9 +2035,15 @@ p {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.faqs-ds .sec-head h2 span {
+  color: var(--main-color);
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+}
 .faqs-ds .accordion-item .accordion-header button:after {
   background-image: url(./hubfolio_HTML/digital_studio/assets/imgs/pricing/plus-solid.svg);
-  -webkit-filter: invert(1);
+  -webkit-filter: invert(0);
   filter: invert(1);
 }
 .faqs-ds .accordion-item .accordion-header button:not(.collapsed):after {
@@ -1992,6 +2059,9 @@ p {
 }
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
+  .header-mp .caption h1 {
+    font-size: 150px;
+  }
   .header-ds .caption {
     text-align: center;
   }
@@ -2114,6 +2184,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .header-mp .caption h1,
+  .footer-mp .footer-logo h1 {
+    font-size: 60px;
+  }
   .navbar .container {
     display: flex;
     flex-wrap: nowrap;
