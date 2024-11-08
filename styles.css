@@ -28,7 +28,7 @@ h6 {
 
 h1 {
   font-size: 64px;
-  line-height: 64px;
+  line-height: 80px;
   letter-spacing: -3px;
 }
 
@@ -496,12 +496,12 @@ p {
   border-bottom: 1px solid #3333333d;
 }
 .services-ds .item .title h2 {
-  font-size: 128px;
-  line-height: 128px;
+  font-size: 118px;
+  line-height: 132px;
   letter-spacing: -4px;
 }
 .services-ds .item .text {
-  width: 500px;
+  width: 300px;
 }
 .services-ds .item .icon {
   width: 60px;
