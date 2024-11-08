@@ -2057,6 +2057,46 @@ p {
   font-size: 14px;
   color: #eee;
 }
+/* --------------- Services --------------- */
+.services-sa .item {
+  background: #121212;
+  padding: 15px;
+  border-radius: 20px;
+}
+.services-sa .item .cont {
+  padding: 15px;
+}
+.services-sa .item .cont h6{
+  color: #fff;
+}
+.services-sa .item .cont .icon {
+  width: 52px;
+  height: 52px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.services-sa .item .cont .icon img {
+  width: 25px;
+}
+.services-sa .item img {
+  border-radius: 25px;
+}
+.services-sa .item .cont .icon.invert img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.services-sa .item .cont .text {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.services-sa .item .cont .text p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+}
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
   .header-mp .caption h1 {
@@ -2071,6 +2111,9 @@ p {
   .header-ds .text p {
     width: 80%;
     margin: auto;
+  }
+  .services-dm .item .title h2 {
+    font-size: 80px;
   }
   .services-ds .item .title h2 {
     font-size: 80px;
@@ -2205,6 +2248,13 @@ p {
   }
   .sec-head .butn {
     margin-top: 15px;
+  }
+  .services-dm .item {
+    display: block !important;
+  }
+  .services-dm .item .title h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
   }
   .header-ds .caption h1,
   .header-ds .numb h2 {
