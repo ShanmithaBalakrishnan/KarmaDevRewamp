@@ -477,6 +477,13 @@ p {
   opacity: 1;
 }
 /* --------------- Services --------------- */
+.services-ds .container h2 span {
+  color: #ef6172;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 65px;
+  line-height: 65px;
+}
 .services-ds .item {
   padding: 30px;
   border-top: 1px solid #3333333d;
@@ -521,13 +528,50 @@ p {
   margin-bottom: 0;
   color: var(--main-color);
 }
+.proj-details .accordion-item {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+}
+.proj-details .accordion-item.active {
+  border-color: var(--main-color);
+}
+.proj-details .accordion-item.active button {
+  color: var(--main-color) !important;
+}
+.proj-details .accordion-item .accordion-header {
+  background: transparent;
+}
+.proj-details .accordion-item .accordion-header button {
+  background: transparent;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 15px 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.proj-details .accordion-item .accordion-header button span {
+  font-size: 14px;
+  margin-right: 80px;
+}
+.proj-details .accordion-item .accordion-header button:after {
+  display: none;
+}
+.proj-details .accordion-item .accordion-body {
+  padding: 0 0 15px 90px;
+}
+.proj-details .accordion-item .accordion-body p {
+  font-size: 14px;
+}
 
 /* --------------- Buttons --------------- */
 .crv-butn span {
   background: #000;
   color: #fff;
 }
-
 .crv-butn .text {
   line-height: 40px;
   font-size: 15px;
@@ -1260,11 +1304,20 @@ p {
 .contact-pg .butn:hover {
   background: var(--main-color) !important;
 }
+.work-hed2 .caption {
+  position: relative;
+}
+.work-hed2 .caption h1 span {
+  letter-spacing: normal;
+}
 
+.work-hed2 .fit-img {
+  height: 620px;
+}
 /* --------------- footer --------------- */
 .footer-ds {
   background-color: #000;
-  border-color: rgba(255, 255, 255, 0.3) !;
+  border-color: rgba(255, 255, 255, 0.3);
 }
 .footer-ds .subscribe h6 {
   color: #fff;
@@ -2066,7 +2119,7 @@ p {
 .services-sa .item .cont {
   padding: 15px;
 }
-.services-sa .item .cont h6{
+.services-sa .item .cont h6 {
   color: #fff;
 }
 .services-sa .item .cont .icon {
@@ -2101,6 +2154,9 @@ p {
 @media screen and (max-width: 992px) {
   .header-mp .caption h1 {
     font-size: 150px;
+  }
+  .work-hed2 .fit-img {
+    height: 400px;
   }
   .header-ds .caption {
     text-align: center;
@@ -2230,6 +2286,13 @@ p {
   .header-mp .caption h1,
   .footer-mp .footer-logo h1 {
     font-size: 60px;
+  }
+  .work-hed2 h1 {
+    font-size: 40px !important;
+  }
+  .serv-hed2 .caption .list ul,
+  .work-hed2 .list ul {
+    padding: 0;
   }
   .navbar .container {
     display: flex;
