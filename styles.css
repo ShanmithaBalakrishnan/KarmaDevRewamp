@@ -1702,6 +1702,10 @@ p {
   opacity: 0.5;
   margin-left: 5px;
 }
+.blog-hed .caption h1 {
+  font-size: 55px;
+}
+
 /* --------------- Clients --------------- */
 .clients-sa .title-font {
   font-size: 32px !important;
@@ -2283,6 +2287,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .blog-hed .caption h1 {
+    font-size: 35px;
+    text-indent: 0;
+  }
   .header-mp .caption h1,
   .footer-mp .footer-logo h1 {
     font-size: 60px;
