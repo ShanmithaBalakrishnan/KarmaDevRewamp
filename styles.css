@@ -425,6 +425,7 @@ p {
   position: relative;
   z-index: 3;
   margin-bottom: -80px;
+  margin-top: 80px;
 }
 .services-dm .img-patern {
   position: absolute;
@@ -866,6 +867,9 @@ p {
   color: #3a3a3a;
 }
 /* --------------- Services --------------- */
+.intro-crv {
+  margin-top: -80px;
+}
 .intro-crv .sec-head h3 {
   text-indent: 20%;
 }
@@ -915,7 +919,9 @@ p {
   -ms-transform: translateX(50%) translateY(-50%) rotate(5deg);
   transform: translateX(50%) translateY(-50%) rotate(5deg);
 }
-
+.intro-crv .skills .sub-head h6{
+  color: #ef6172;
+}
 .intro-crv .skills-box h6 {
   font-size: 13px;
   font-weight: 300;
@@ -1023,11 +1029,14 @@ p {
   white-space: nowrap;
 }
 /* --------------- Works --------------- */
+.word-card h4{
+  font-size: 40px;
+}
 .work-card .card-item {
   margin-bottom: 30px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
-  background: var(--bg-color);
+  background: #fff;
 }
 .work-card .card-item .cont {
   height: 100%;
@@ -1319,7 +1328,7 @@ p {
   background-color: #000;
   border-color: rgba(255, 255, 255, 0.3);
 }
-.footer-ds .subscribe h6 {
+.footer-ds h6 {
   color: #fff;
 }
 .footer-ds .subscribe .form-group {
@@ -1356,18 +1365,15 @@ p {
 }
 .footer-ds .contact-info .item h6 {
   margin-bottom: 15px;
-  color: #fff;
 }
 .footer-ds .contact-info .item p {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 5px;
-  color: #fff;
 }
 .footer-ds .sub-footer .copy .logo {
   width: 25px;
 }
 .footer-ds .sub-footer .copy p {
-  color: #fff;
   font-size: 14px;
 }
 .footer-ds .sub-footer .copy p a {
@@ -1377,7 +1383,6 @@ p {
   width: 100%;
 }
 .footer-ds .sub-footer .links a {
-  color: #fff;
   font-size: 14px;
 }
 .footer-ds .sub-footer .links .active {
@@ -2458,6 +2463,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .clients-sa h6{
+    font-size: 46px;
+  }
   .blog-hed .caption h1 {
     font-size: 35px;
     text-indent: 0;
@@ -2467,6 +2475,14 @@ p {
     width: 270px;
     background-image: url(assets/imgs/stages.svg);
 }
+.intro-iner {
+  margin-top: 80px;
+}
+.intro-iner h3{
+    font-size: 40px;
+    line-height: 42px;
+  }
+
   .post-header h1 {
     font-size: 30px !important;
   }
@@ -2502,6 +2518,10 @@ p {
   .sec-head .butn {
     margin-top: 15px;
   }
+  .services-dm h3 {
+    font-size: 30px;
+    line-height: 32px;
+  }
   .services-dm .item {
     display: block !important;
   }
@@ -2511,7 +2531,7 @@ p {
   }
   .header-ds .caption h1,
   .header-ds .numb h2 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.2;
   }
   .header-ds .numb {
@@ -2573,10 +2593,10 @@ p {
   }
   .intro-crv .exp h2 {
     margin-bottom: 0;
-    font-size: 40vw;
+    font-size: 35vw;
   }
   .intro-crv .exp h2 {
-    font-size: 70vw;
+    font-size: 35vw;
   }
   .testimonials-mp .swiper-slide {
     width: 100%;
