@@ -2503,8 +2503,8 @@ p {
     text-indent: 0;
   }
   .about-ma .bg-img {
-    height: 270px;
-    width: 270px;
+    height: 300px;
+    width: 360px;
     background-image: url("assets/imgs/stages.svg");
   }
   .intro-iner {
