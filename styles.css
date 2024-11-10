@@ -1681,7 +1681,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 50px;
+  /* margin: 50px; */
 }
 .about-ma .bg-img {
   height: 100vh;
