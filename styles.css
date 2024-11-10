@@ -246,12 +246,14 @@ p {
   backdrop-filter: blur(2px);
 }
 .clients-dm .item {
-  margin: 0 80px;
+  margin: 0 20px;
 }
 .clients-dm .item img {
   width: 140px;
 }
-
+.main-marq .box .item {
+  padding: 0 20px !important;
+}
 /* --------------- Service --------------- */
 .services-cst {
   margin-top: 120px;
@@ -424,8 +426,8 @@ p {
   /* background-color: #fff; */
   position: relative;
   z-index: 3;
-  margin-bottom: -80px;
-  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-top: 150px;
 }
 .services-dm .img-patern {
   position: absolute;
@@ -722,6 +724,17 @@ p {
   width: 2.1rem;
   height: 2.1rem;
 }
+.intro-iner .img-box .states1 {
+  position: absolute;
+  background: #ef6172;
+  color: #fff;
+  border-radius: 15px;
+  z-index: 3;
+  /* border-radius: 30px 0 0 0; */
+  padding: 20px;
+  bottom: 0px;
+  right: 0px;
+}
 .intro-iner .img-box .butn-vid {
   background: var(--theme-color);
   border-radius: 30px 0 0 0;
@@ -751,7 +764,8 @@ p {
   border-radius: 50%;
 }
 .intro-iner .img-box .butn-vid .cont {
-  padding-left: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 .intro-iner .img-box .butn-vid .shap-right-top {
   position: absolute;
@@ -783,6 +797,9 @@ p {
 }
 .intro-iner .sec-head {
   padding-top: 40px;
+}
+.intro-iner .sub-head {
+  color: #ef6172;
 }
 .intro-iner .accordion-item {
   background: transparent;
@@ -919,7 +936,7 @@ p {
   -ms-transform: translateX(50%) translateY(-50%) rotate(5deg);
   transform: translateX(50%) translateY(-50%) rotate(5deg);
 }
-.intro-crv .skills .sub-head h6{
+.intro-crv .skills .sub-head h6 {
   color: #ef6172;
 }
 .intro-crv .skills-box h6 {
@@ -1029,17 +1046,17 @@ p {
   white-space: nowrap;
 }
 /* --------------- Works --------------- */
-.word-card h4{
+.word-card h4 {
   font-size: 40px;
 }
 .work-card .card-item {
   margin-bottom: 30px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
-  background: #fff;
+  background: #c6c6c6;
 }
 .work-card .card-item .cont {
-  height: 100%;
+  height: 70%;
   padding: 40px 80px 40px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1127,6 +1144,7 @@ p {
   overflow: visible;
   padding: 150px 0 250px;
   background-image: url("assets/imgs/brush1.svg");
+  background-image: url("./hubfolio_HTML/modern_portfolio/assets/imgs/testim/global.png");
   background-size: 60%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1370,8 +1388,11 @@ p {
   font-size: 14px;
   margin-top: 5px;
 }
+.footer-ds .contact-info .item p:hover {
+  color: #fff;
+}
 .footer-ds .sub-footer .copy .logo {
-  width: 25px;
+  width: 50px;
 }
 .footer-ds .sub-footer .copy p {
   font-size: 14px;
@@ -2183,8 +2204,19 @@ p {
   left: 30px;
   z-index: 4;
 }
-.main-post p{
+.main-post{
+  align-items: center;
+}
+.main-post h1 {
+  text-align: center;
+  font-size: 84px;
+  font-weight: 700;
+  padding: 30px;
+}
+.main-post p {
   text-align: justify;
+  width: 1200px;
+  align-items: center;
 }
 .main-post .spec-letter {
   font-size: 60px;
@@ -2463,7 +2495,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .clients-sa h6{
+  .clients-sa h6 {
     font-size: 46px;
   }
   .blog-hed .caption h1 {
@@ -2473,12 +2505,12 @@ p {
   .about-ma .bg-img {
     height: 270px;
     width: 270px;
-    background-image: url(assets/imgs/stages.svg);
-}
-.intro-iner {
-  margin-top: 80px;
-}
-.intro-iner h3{
+    background-image: url("assets/imgs/stages.svg");
+  }
+  .intro-iner {
+    margin-top: 80px;
+  }
+  .intro-iner h3 {
     font-size: 40px;
     line-height: 42px;
   }
@@ -2671,5 +2703,15 @@ p {
   .brands-mp .item h2 {
     font-size: 40px;
     line-height: 1.2;
+  }
+  .main-post h1 {
+    text-align: center;
+    font-size: 84px;
+    font-weight: 700;
+    padding: 30px;
+  }
+  .main-post p {
+    text-align: justify;
+    width: 315px;
   }
 }
