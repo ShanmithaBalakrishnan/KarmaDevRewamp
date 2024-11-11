@@ -2101,7 +2101,7 @@ p {
 }
 .intro-ds .comit .item h6 {
   font-size: 20px;
-  line-height: 28px;
+  line-height: 32px;
 }
 .intro-ds .founders .cont .butn {
   background-color: #ef6172;
@@ -2539,6 +2539,9 @@ p {
   .clients-sa .title-font{
     font-size: 24px;
   }
+  .intro-ds .founders .cont h4 {
+    font-size: 24px;
+  }
   .clients-dm:before {
     content: "";
     position: absolute;
@@ -2592,6 +2595,7 @@ p {
   }
   .work-hed2 h1 {
     font-size: 40px !important;
+    line-height: 48px;
   }
   .serv-hed2 .caption .list ul,
   .work-hed2 .list ul {
@@ -2643,6 +2647,10 @@ p {
   }
   .header-ds .numb span br {
     display: none;
+  }
+  .services-cst .sec-head h6{
+    line-height:20px !important;
+    font-size: 18px !important;
   }
   .services-cst .item .title h2 {
     font-size: 30px;
