@@ -65,7 +65,9 @@ h6 {
   font-size: 20px;
   line-height: 28px;
 }
-
+.sec-head h6{
+  color: #ef6172;
+}
 .sub-color {
   color: #808080;
 }
