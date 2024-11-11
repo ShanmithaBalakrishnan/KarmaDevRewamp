@@ -224,6 +224,8 @@ p {
 }
 /* --------------- Clients --------------- */
 .clients-dm {
+  background-color: #000;
+  color: #fff;
   margin-bottom: -180px;
   position: relative;
 }
@@ -639,7 +641,8 @@ p {
 
 /* --------------- Section --------------- */
 .intro-iner {
-  color: #000;
+  color: #fff;
+  background-color: #000;
   position: relative;
 }
 .intro-iner h3 {
@@ -822,7 +825,7 @@ p {
 }
 .intro-iner .accordion-item .accordion-header button {
   background: transparent;
-  color: #000;
+  color: #fff;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
@@ -844,6 +847,7 @@ p {
 }
 .intro-iner .accordion-item .accordion-body p {
   font-size: 14px;
+  color: #808080;
 }
 /* --------------- Intro --------------- */
 .intro-cst .title-font {
@@ -1354,6 +1358,10 @@ p {
 .work-hed2 .caption {
   position: relative;
 }
+.work-hed2 .caption span {
+  color: #ef6172;
+  letter-spacing: normal;
+}
 .work-hed2 .caption h1 span {
   letter-spacing: normal;
 }
@@ -1765,6 +1773,10 @@ p {
 }
 
 /* --------------- Clients --------------- */
+.clients-sa{
+  background-color: #000;
+  color: #fff;
+}
 .clients-sa .title-font {
   font-family: "Playfair Display", serif;
   /* font-style: italic; */
@@ -1892,6 +1904,10 @@ p {
   font-family: "Playfair Display", serif;
   font-style: italic;
 }
+.services-mp {
+  background-color: #000;
+  color: #fff;
+}
 .services-mp .sec-head h2 span {
   font-family: "Playfair Display", serif;
   font-style: italic;
@@ -2004,6 +2020,9 @@ p {
   transition: all 0.4s;
 }
 /* --------------- Testimonials --------------- */
+.testimonials-ds {
+  margin-top: -220px;
+}
 .testimonials-ds .qoute-icon {
   position: relative;
   width: -webkit-max-content;
@@ -2544,6 +2563,12 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .intro-iner .img {
+    height: 480px;
+    width: 350px;
+    border-radius: 15px;
+    margin-left: -5px;
+  }
   .clients-sa .title-font{
     font-size: 24px;
   }
