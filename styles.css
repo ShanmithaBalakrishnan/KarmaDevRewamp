@@ -644,7 +644,7 @@ p {
 /* --------------- Section --------------- */
 .intro-iner {
   position: relative;
-  margin-top: 200px;
+  margin-top: -30px;
 }
 .intro-iner h3 {
   font-size: 40px;
@@ -1124,6 +1124,7 @@ p {
 /* --------------- Works --------------- */
 .works-ds {
   overflow: hidden;
+  margin-top: -200px;
 }
 .works-ds .work-box {
   -webkit-clip-path: inset(-100vw -100vw -100vw 0);
@@ -2166,10 +2167,9 @@ p {
 /* --------------- About --------------- */
 .intro-ds {
   background-image: url("https://ik.imagekit.io/3mt1qppqk/KarmaDev/CTA-bg.svg?updatedAt=1731316641872");
-  background-size: cover;
+  background-size: contain;
   background-position: top;
   position: relative;
-  margin-bottom: -50px;
 }
 .intro-ds .container {
   position: relative;
