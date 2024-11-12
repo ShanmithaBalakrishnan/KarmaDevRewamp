@@ -2752,6 +2752,9 @@ p {
   .navbar .topnav .butn {
     padding: 8px 15px;
   }
+  .navbar .topnav .butn .icon{
+    visibility: hidden;
+  }
   .sec-head {
     display: block !important;
   }
