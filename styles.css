@@ -851,6 +851,9 @@ p {
   color: #808080;
 }
 /* --------------- Intro --------------- */
+.intro-cst{
+  margin-bottom: 90px;
+}
 .intro-cst .title-font {
   font-family: "Iner", sans-serif;
   line-height: 40px;
@@ -2671,6 +2674,9 @@ p {
   }
   .work-hed2 .info {
     margin-left: 80px;
+  }
+  .intro-cst{
+    margin-bottom: 160px;
   }
   .intro-cst .states .item h2 {
     font-size: 80px;
