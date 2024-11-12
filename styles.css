@@ -1990,6 +1990,9 @@ p {
   font-family: "Playfair Display", serif;
   font-style: italic;
 }
+.services-mp{
+  margin-top: 180px;
+}
 .services-mp .sec-head h2 span {
   font-family: "Playfair Display", serif;
   font-style: italic;
@@ -2936,7 +2939,7 @@ p {
     display: contents;
   }
   .services-mp {
-    margin-top: 80px;
+    margin-top: 120px;
   }
   .services-mp .serv-title .tab-title h2 {
     font-size: 65px;
