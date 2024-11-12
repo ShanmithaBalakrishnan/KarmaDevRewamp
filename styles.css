@@ -1851,7 +1851,7 @@ p {
   height: 470px;
   border-radius: 15px;
 }
-.blog-sa .sec-head h6{
+.blog-sa .sec-head h6 {
   color: #ef6172;
 }
 .blog-sa .item .cont .info a {
@@ -2597,7 +2597,7 @@ p {
     width: 250px;
     top: 60%;
   }
-  #discovery{
+  #discovery {
     margin-top: -90px;
   }
   .about-ma {
@@ -2611,7 +2611,7 @@ p {
   .about-ma .content .item {
     margin-top: 140px;
   }
-  .process-mp{
+  .process-mp {
     margin-top: -50px;
   }
   .process-mp .item .d-flex {
@@ -2632,7 +2632,7 @@ p {
   .process-mp .item .botm span {
     font-size: 30px;
   }
-  .blog-sa{
+  .blog-sa {
     margin-top: -110px;
   }
   .blog-sa h3 {
@@ -2656,11 +2656,11 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .marq-mp{
+  .marq-mp {
     margin-top: -110px;
     margin-top: -50px;
   }
-  .intro-ds{
+  .intro-ds {
     background-size: cover;
   }
   .work-hed2 .info {
@@ -2699,7 +2699,7 @@ p {
     line-height: 1.2;
     letter-spacing: normal;
   }
-  .clients-sa{
+  .clients-sa {
     margin-top: 80px;
   }
   .clients-sa .title-font {
@@ -2776,7 +2776,7 @@ p {
   .navbar .topnav .butn {
     padding: 8px 15px;
   }
-  .navbar .topnav .butn .icon{
+  .navbar .topnav .butn .icon {
     visibility: hidden;
   }
   .sec-head {
@@ -2931,10 +2931,19 @@ p {
   }
   .header-ma .mimg {
     height: 400px;
+    width: 150px;
+    align-items: center;
+    display: contents;
+  }
+  .services-mp {
+    margin-top: 80px;
   }
   .services-mp .serv-title .tab-title h2 {
     font-size: 65px;
     line-height: 1.2;
+  }
+  .brands-mp{
+    margin-top: -80px;
   }
   .brands-mp .item:after {
     display: none;
