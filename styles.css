@@ -1017,7 +1017,7 @@ p {
 }
 /* --------------- Services --------------- */
 .marq-mp {
-  margin-bottom: 350px;
+  margin-bottom: 100px;
   margin-top: -50px;
 }
 .marq-mp .main-marq {
@@ -1851,7 +1851,9 @@ p {
   height: 470px;
   border-radius: 15px;
 }
-
+.blog-sa .sec-head h6{
+  color: #ef6172;
+}
 .blog-sa .item .cont .info a {
   font-size: 14px;
 }
@@ -2569,6 +2571,7 @@ p {
     height: auto !important;
   }
   .header-sa {
+    margin-top: -80px;
     padding: 180px 0 320px;
     min-height: auto;
     position: relative;
@@ -2579,7 +2582,7 @@ p {
   }
   .header-sa .caption .text {
     margin-top: 40px;
-    width: 80%;
+    width: 100%;
   }
   .header-sa .imgs {
     position: absolute;
@@ -2594,7 +2597,11 @@ p {
     width: 250px;
     top: 60%;
   }
+  #discovery{
+    margin-top: -90px;
+  }
   .about-ma {
+    margin-top: -30px;
     display: block !important;
   }
   .about-ma .content {
@@ -2603,6 +2610,9 @@ p {
   }
   .about-ma .content .item {
     margin-top: 140px;
+  }
+  .process-mp{
+    margin-top: -50px;
   }
   .process-mp .item .d-flex {
     display: block !important;
@@ -2621,6 +2631,9 @@ p {
   }
   .process-mp .item .botm span {
     font-size: 30px;
+  }
+  .blog-sa{
+    margin-top: -110px;
   }
   .blog-sa h3 {
     font-size: 28px;
@@ -2643,6 +2656,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .marq-mp{
+    margin-top: -110px;
+    margin-top: -50px;
+  }
   .intro-ds{
     background-size: cover;
   }
