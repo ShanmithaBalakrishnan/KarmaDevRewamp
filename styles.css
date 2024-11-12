@@ -771,7 +771,7 @@ p {
   /* margin-left: 10px; */
   margin-top: -10px;
 }
-.intro-iner .cont{
+.intro-iner .cont {
   font-size: 16px !important;
 }
 .intro-iner .img-box .butn-vid .shap-right-top {
@@ -1057,7 +1057,7 @@ p {
 .word-card h4 {
   font-size: 40px;
 }
-.word-card .sec-head .sub-head{
+.word-card .sec-head .sub-head {
   color: #ef6172;
 }
 .work-card .card-item1 {
@@ -1124,10 +1124,10 @@ p {
 .works-ds .swiper-slide {
   width: 75%;
 }
-.works-ds .sec-head h2 span{
+.works-ds .sec-head h2 span {
   color: #ef6172;
   font-style: italic;
-  font-family: 'playful';
+  font-family: "playful";
 }
 .works-ds .item:hover .cont h4 {
   color: var(--main-color);
@@ -1436,12 +1436,12 @@ p {
 .footer-ds h6 {
   color: #fff;
 }
-.footer-ds .logo{
+.footer-ds .logo {
   width: 250px;
   margin-left: -25px;
   margin-bottom: 10px;
 }
-.footer-ds .sub-footer .logo1{
+.footer-ds .sub-footer .logo1 {
   margin-bottom: 0px;
 }
 .footer-ds .subscribe .form-group {
@@ -1502,7 +1502,7 @@ p {
 .footer-ds .sub-footer .links a {
   font-size: 14px;
 }
-.footer-ds .sub-footer .links a:hover{
+.footer-ds .sub-footer .links a:hover {
   color: #fff;
 }
 .footer-sa .call-action h2 {
@@ -1580,7 +1580,9 @@ p {
 .works-dm .sec-head {
   padding-left: 100px;
 }
-
+.works-dm .sec-head h6 {
+  color: #ef6172;
+}
 .works-dm .item {
   margin-top: 80px;
 }
@@ -1861,7 +1863,7 @@ p {
   line-height: 20px;
 }
 /* --------------- Process --------------- */
-.process-mp{
+.process-mp {
   background-color: #000;
   color: #fff;
 }
@@ -2624,7 +2626,7 @@ p {
     border-radius: 15px;
     margin-left: -5px;
   }
-  .works-ds{
+  .works-ds {
     margin-top: -90px;
   }
   .works-ds .item .cont span {
@@ -2636,7 +2638,7 @@ p {
     line-height: 1.2;
     letter-spacing: normal;
   }
-  .clients-sa .title-font{
+  .clients-sa .title-font {
     font-size: 24px;
   }
   .intro-ds .founders .cont h4 {
@@ -2713,8 +2715,7 @@ p {
     display: block !important;
   }
   .sec-head h2 {
-    font-size: 40px;
-    line-height: 1.2;
+    line-height: 1;
   }
   .sec-head .butn {
     margin-top: 15px;
@@ -2748,8 +2749,8 @@ p {
   .header-ds .numb span br {
     display: none;
   }
-  .services-cst .sec-head h6{
-    line-height:20px !important;
+  .services-cst .sec-head h6 {
+    line-height: 20px !important;
     font-size: 18px !important;
   }
   .services-cst .item .title h2 {
