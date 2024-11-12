@@ -2618,6 +2618,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .works-ds{
+    margin-top: -90px;
+  }
+  }
   .intro-iner .img {
     height: 480px;
     width: 350px;
@@ -2628,6 +2632,10 @@ p {
     font-size: 28px;
     line-height: 1.2;
     letter-spacing: normal;
+  }
+  .works-ds .item .cont span {
+    font-size: 14px;
+    width: 300px;
   }
   .clients-sa .title-font{
     font-size: 24px;
