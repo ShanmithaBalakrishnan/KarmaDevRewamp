@@ -1238,6 +1238,9 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.header-mp{
+  margin-bottom: -190px;
+}
 .header-mp .brush {
   position: relative;
   overflow: visible;
