@@ -224,7 +224,7 @@ p {
 }
 /* --------------- Clients --------------- */
 .clients-dm {
-  margin-bottom: -180px;
+  margin-bottom: -80px;
   position: relative;
 }
 /* .clients-dm:before {
@@ -258,7 +258,7 @@ p {
 .main-marq .box .item {
   padding: 0 20px !important;
 }
-.main-marq .box{
+.main-marq .box {
   align-items: center;
 }
 /* --------------- Service --------------- */
@@ -859,7 +859,7 @@ p {
 .intro-cst .text h5 {
   text-align: justify;
 }
-.intro-cst .states .item .title-font{
+.intro-cst .states .item .title-font {
   font-size: 140px !important;
 }
 .intro-cst .states .item {
@@ -1424,6 +1424,26 @@ p {
 
 .contact-pg .butn:hover {
   background: var(--main-color) !important;
+}
+.work-hed2 .info {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+.work-hed2 .info .item {
+  border: #000 solid 1px;
+  border-radius: 30px;
+  width: 150px;
+  color: #000;
+  padding-top: 5px;
+}
+.work-hed2 .info .item:hover {
+  border: #ef6172 solid 1px;
+  background-color: #ef6172;
+  border-radius: 30px;
+  width: 150px;
+  color: #fff;
+  padding: 5px;
 }
 .work-hed2 .caption {
   position: relative;
@@ -2286,7 +2306,7 @@ p {
   height: 52px;
   line-height: 50px;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 50%;
 }
 .services-sa .item .cont .icon img {
@@ -2623,6 +2643,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .work-hed2 .info {
+    margin-left: 80px;
+  }
   .intro-cst .states .item h2 {
     font-size: 80px;
     line-height: 1;
@@ -2630,7 +2653,7 @@ p {
     font-weight: 500;
     font-family: "Six Caps", sans-serif;
   }
-  .intro-cst .states .item .title-font{
+  .intro-cst .states .item .title-font {
     font-size: 42px !important;
   }
   .intro-cst .title-font {
