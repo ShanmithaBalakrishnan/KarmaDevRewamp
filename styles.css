@@ -1179,6 +1179,7 @@ p {
 .testimonials-mp {
   position: relative;
   overflow: hidden !important;
+  margin-bottom: 150px;
 }
 .testimonials-mp .brush {
   position: absolute;
@@ -2880,6 +2881,9 @@ p {
   .intro-crv .exp h2 {
     margin-bottom: 0;
     font-size: 70vw;
+  }
+  .testimonials-mp{
+    margin-bottom: 250px;
   }
   .testimonials-mp .swiper-slide {
     width: 100%;
