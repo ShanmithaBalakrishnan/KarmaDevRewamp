@@ -224,8 +224,6 @@ p {
 }
 /* --------------- Clients --------------- */
 .clients-dm {
-  background-color: #000;
-  color: #fff;
   margin-bottom: -180px;
   position: relative;
 }
@@ -254,7 +252,7 @@ p {
   margin: 0 50px;
 }
 .clients-dm .item img {
-  width: 180px;
+  width: 90px;
 }
 .main-marq .box .item {
   padding: 0 20px !important;
@@ -641,8 +639,6 @@ p {
 
 /* --------------- Section --------------- */
 .intro-iner {
-  color: #fff;
-  background-color: #000;
   position: relative;
 }
 .intro-iner h3 {
@@ -825,7 +821,7 @@ p {
 }
 .intro-iner .accordion-item .accordion-header button {
   background: transparent;
-  color: #fff;
+  color: #000;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
@@ -1061,6 +1057,9 @@ p {
 .word-card h4 {
   font-size: 40px;
 }
+.word-card .sec-head .sub-head{
+  color: #ef6172;
+}
 .work-card .card-item1 {
   margin-bottom: 30px;
   /* border: 1px solid rgba(255, 255, 255, 0.05); */
@@ -1110,6 +1109,56 @@ p {
 }
 .work-card .card-item .img img {
   border-radius: 15px;
+}
+/* --------------- Works --------------- */
+.works-ds {
+  overflow: hidden;
+}
+.works-ds .work-box {
+  -webkit-clip-path: inset(-100vw -100vw -100vw 0);
+  clip-path: inset(-100vw -100vw -100vw 0);
+}
+.works-ds .swiper-container {
+  overflow: visible;
+}
+.works-ds .swiper-slide {
+  width: 75%;
+}
+.works-ds .sec-head h2 span{
+  color: #ef6172;
+  font-style: italic;
+  font-family: 'playful';
+}
+.works-ds .item:hover .cont h4 {
+  color: var(--main-color);
+}
+.works-ds .item .img {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.works-ds .item .cont {
+  margin-top: 40px;
+}
+.works-ds .item .cont span {
+  font-size: 14px;
+  width: 500px;
+}
+.works-ds .swiper-wrapper {
+  padding-bottom: 60px;
+}
+.works-ds .swiper-pagination {
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: auto;
+  padding: 2px 25px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+.works-ds .swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--main-color);
 }
 /* --------------- Testimonials --------------- */
 .testimonials-mp {
@@ -1164,6 +1213,16 @@ p {
   margin-top: 2px;
 }
 .testimonials-mp .testim-swiper {
+  position: relative;
+  overflow: visible;
+  padding: 150px 0 250px;
+  background-image: url("assets/imgs/brush1.svg");
+  background-image: url("./hubfolio_HTML/modern_portfolio/assets/imgs/testim/global.png");
+  background-size: 60%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header-mp .brush {
   position: relative;
   overflow: visible;
   padding: 150px 0 250px;
@@ -1773,10 +1832,6 @@ p {
 }
 
 /* --------------- Clients --------------- */
-.clients-sa{
-  background-color: #000;
-  color: #fff;
-}
 .clients-sa .title-font {
   font-family: "Playfair Display", serif;
   /* font-style: italic; */
@@ -2568,6 +2623,11 @@ p {
     width: 350px;
     border-radius: 15px;
     margin-left: -5px;
+  }
+  .works-ds .item .cont h4 {
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: normal;
   }
   .clients-sa .title-font{
     font-size: 24px;
