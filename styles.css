@@ -2624,6 +2624,13 @@ p {
     border-radius: 15px;
     margin-left: -5px;
   }
+  .works-ds{
+    margin-top: -90px;
+  }
+  .works-ds .item .cont span {
+    font-size: 14px;
+    width: 300px;
+  }
   .works-ds .item .cont h4 {
     font-size: 28px;
     line-height: 1.2;
