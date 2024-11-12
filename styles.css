@@ -227,7 +227,7 @@ p {
   margin-bottom: -180px;
   position: relative;
 }
-.clients-dm:before {
+/* .clients-dm:before {
   content: "";
   position: absolute;
   top: 0;
@@ -247,15 +247,19 @@ p {
   width: 200px;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
-}
+} */
 .clients-dm .item {
   margin: 0 50px;
 }
 .clients-dm .item img {
-  width: 90px;
+  width: 140px;
+  height: fit-content;
 }
 .main-marq .box .item {
   padding: 0 20px !important;
+}
+.main-marq .box{
+  align-items: center;
 }
 /* --------------- Service --------------- */
 .services-cst {
@@ -640,6 +644,7 @@ p {
 /* --------------- Section --------------- */
 .intro-iner {
   position: relative;
+  margin-top: 200px;
 }
 .intro-iner h3 {
   font-size: 40px;
@@ -847,10 +852,15 @@ p {
 }
 /* --------------- Intro --------------- */
 .intro-cst .title-font {
-  font-family: "Six Caps", sans-serif;
+  font-family: "Iner", sans-serif;
+  line-height: 40px;
+  font-size: 30px !important;
 }
 .intro-cst .text h5 {
   text-align: justify;
+}
+.intro-cst .states .item .title-font{
+  font-size: 140px !important;
 }
 .intro-cst .states .item {
   position: relative;
@@ -1007,7 +1017,8 @@ p {
 }
 /* --------------- Services --------------- */
 .marq-mp {
-  margin-bottom: 150px;
+  margin-bottom: 350px;
+  margin-top: -50px;
 }
 .marq-mp .main-marq {
   overflow: hidden;
@@ -2069,6 +2080,7 @@ p {
 }
 /* --------------- Testimonials --------------- */
 .testimonials-ds {
+  margin-bottom: 80px;
   margin-top: -220px;
 }
 .testimonials-ds .qoute-icon {
@@ -2611,6 +2623,21 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .intro-cst .states .item h2 {
+    font-size: 80px;
+    line-height: 1;
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: "Six Caps", sans-serif;
+  }
+  .intro-cst .states .item .title-font{
+    font-size: 42px !important;
+  }
+  .intro-cst .title-font {
+    font-family: "Iner", sans-serif;
+    line-height: 40px;
+    font-size: 30px !important;
+  }
   .intro-iner .img {
     height: 480px;
     width: 350px;
@@ -2635,7 +2662,7 @@ p {
   .intro-ds .founders .cont h4 {
     font-size: 24px;
   }
-  .clients-dm:before {
+  /* .clients-dm:before {
     content: "";
     position: absolute;
     top: 0;
@@ -2655,7 +2682,7 @@ p {
     width: 120px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
-  }
+  } */
   .clients-sa h6 {
     font-size: 46px;
   }
