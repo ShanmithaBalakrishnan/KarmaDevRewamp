@@ -2256,6 +2256,9 @@ p {
   margin-bottom: 5px;
   color: #000;
 }
+.faqs-ds{
+  margin-bottom: 120px;
+}
 /* .faqs-ds .accordion-item.active {
   background: var(--main-color);
 } */
