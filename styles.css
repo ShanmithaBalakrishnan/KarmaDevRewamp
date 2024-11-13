@@ -1433,25 +1433,11 @@ p {
 .contact-pg .butn {
   background: #000 !important;
 }
-.work-hed2 .info {
-  align-items: center;
-  justify-content: center;
-  display: grid;
-}
-.work-hed2 .info .item {
-  border: #000 solid 1px;
-  border-radius: 30px;
-  width: 150px;
-  color: #000;
-  padding-top: 5px;
-}
-.work-hed2 .info .item:hover {
-  border: #ef6172 solid 1px;
+.work-hed2 .info .commerce{
   background-color: #ef6172;
-  border-radius: 30px;
-  width: 150px;
   color: #fff;
-  padding: 5px;
+  border-radius: 25px;
+  padding: 10px 10px 0 10px;
 }
 .work-hed2 .caption {
   position: relative;
@@ -2344,6 +2330,9 @@ p {
   line-height: 22px;
   color: #fff;
 }
+.services-sa .sec-head h6{
+  color: #ef6172;
+}
 .post-header .caption .tags a {
   padding: 7px 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -2675,9 +2664,6 @@ p {
   }
   .intro-ds {
     background-size: cover;
-  }
-  .work-hed2 .info {
-    margin-left: 80px;
   }
   .intro-cst{
     margin-bottom: 160px;
