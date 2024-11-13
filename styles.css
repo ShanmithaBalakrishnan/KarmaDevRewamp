@@ -2353,8 +2353,8 @@ p {
 }
 .post-header .bg-img {
   width: 1200px;
-  height: 75vh;
-  min-height: 480px;
+  height: 60vh;
+  min-height: 350px;
   border-radius: 15px;
   overflow: hidden;
   position: relative;
@@ -2679,8 +2679,8 @@ p {
   }
   .post-header .bg-img {
     width: 650px;
-    height: 75vh;
-    min-height: 480px;
+    height: 60vh;
+    min-height: 350px;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -2696,8 +2696,8 @@ p {
 @media screen and (max-width: 768px) {
   .post-header .bg-img {
     width: 350px;
-    height: 75vh;
-    min-height: 480px;
+    height: 60vh;
+    min-height: 350px;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
