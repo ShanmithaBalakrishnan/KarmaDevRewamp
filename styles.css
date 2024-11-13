@@ -2528,6 +2528,9 @@ p {
 .main-post .next-prv-post .thumb-post:last-of-type {
   margin-left: 15px;
 }
+.blog-mp{
+  display: flex;
+}
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
   .header-mp .caption h1 {
