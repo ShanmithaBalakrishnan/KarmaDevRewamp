@@ -2370,6 +2370,11 @@ p {
   padding: 20px;
   text-align: justify;
 }
+.blog .main-post .item{
+  width: 900px;
+  display: grid;
+  align-items: center;
+}
 .main-post {
   align-items: center;
 }
@@ -2379,18 +2384,12 @@ p {
   font-weight: 700;
   padding: 30px;
 }
-.main-post p {
-  text-align: justify;
-  width: 1200px;
-  align-items: center;
-}
 .main-post .spec-letter {
   font-size: 60px;
   line-height: 50px;
   padding-right: 10px;
   float: left;
 }
-
 .main-post .post-qoute {
   position: relative;
   padding: 40px;
@@ -2679,6 +2678,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .blog .main-post .item{
+    margin-left: -105px;
+    width: 250px;
+  }
   .marq-mp {
     margin-top: -110px;
     margin-top: -50px;
