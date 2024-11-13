@@ -1068,10 +1068,10 @@ p {
   white-space: nowrap;
 }
 /* --------------- Works --------------- */
-.work-card h4 {
+.word-card h4 {
   font-size: 40px;
 }
-.work-card .sec-head .sub-head {
+.word-card .sec-head .sub-head {
   color: #ef6172;
 }
 .work-card .card-item1 {
@@ -1436,19 +1436,22 @@ p {
 .work-hed2 .info {
   align-items: center;
   justify-content: center;
+  display: grid;
 }
 .work-hed2 .info .item {
-  background-color: #ef6172;
-  color: #fff;
-  padding: 10px 10px 0px 10px;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 16px;
-  width: 220px;
+  border: #000 solid 1px;
+  border-radius: 30px;
+  width: 150px;
+  color: #000;
+  padding-top: 5px;
 }
-.work-hed2 .info .item span{
-  text-align: center;
+.work-hed2 .info .item:hover {
+  border: #ef6172 solid 1px;
+  background-color: #ef6172;
+  border-radius: 30px;
+  width: 150px;
+  color: #fff;
+  padding: 5px;
 }
 .work-hed2 .caption {
   position: relative;
@@ -2674,7 +2677,7 @@ p {
     background-size: cover;
   }
   .work-hed2 .info {
-    margin-left: 55px;
+    margin-left: 80px;
   }
   .intro-cst{
     margin-bottom: 160px;
