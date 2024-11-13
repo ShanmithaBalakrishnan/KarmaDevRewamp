@@ -2528,8 +2528,12 @@ p {
 .main-post .next-prv-post .thumb-post:last-of-type {
   margin-left: 15px;
 }
-.blog-mp{
-  display: flex;
+.blog-mp .item .cont a{
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.blog-mp .item .img{
+  border-radius: 30px;
 }
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
