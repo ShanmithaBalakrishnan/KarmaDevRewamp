@@ -2407,6 +2407,12 @@ p {
   font-weight: 700;
   padding: 30px;
 }
+.main-post h4{
+  justify-content: left;
+  align-items: start;
+  display:flex ;
+  text-align: start;
+}
 .main-post .spec-letter {
   font-size: 60px;
   line-height: 50px;
