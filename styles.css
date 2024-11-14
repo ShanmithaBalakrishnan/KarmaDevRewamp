@@ -1561,7 +1561,7 @@ p {
 .footer-ds .sub-footer .links a:hover {
   color: #fff;
 }
-/* .footer-sa .call-action h2 {
+.footer-sa .call-action h2 {
   font-size: 100px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1631,7 +1631,7 @@ p {
 .footer-sa {
   background-color: #000;
   color: #fff;
-} */
+}
 /* --------------- Works --------------- */
 .works-dm .sec-head {
   padding-left: 100px;
