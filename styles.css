@@ -1502,6 +1502,7 @@ p {
 .footer-ds .subscribe .form-group {
   margin: 60px 0 15px;
   position: relative;
+  color: #fff;
 }
 .footer-ds .subscribe .form-group label {
   font-size: 14px;
@@ -1513,7 +1514,7 @@ p {
   border: 0;
   border-radius: 5px;
   width: 100%;
-  color: #fff;
+  color: #000;
 }
 .footer-ds .subscribe .form-group button {
   background: transparent;
