@@ -280,7 +280,7 @@
 }
 
 .marq-mp .color-bg {
-  background: var(--main-color);
+  background: #eee;
   -webkit-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
   transform: rotate(3deg);
