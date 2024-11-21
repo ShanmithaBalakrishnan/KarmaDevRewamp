@@ -4,7 +4,7 @@
 :root {
   --bg-color: #ffffff;
   --theme-color: #fff;
-  --main-color: #ef6172;
+  --main-color: #ea3d50;
 }
 
 body {
@@ -60,7 +60,11 @@ h6 {
   font-size: 24px;
   line-height: 32px;
 }
-
+h2 span {
+  color: var(--main-color);
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+}
 .sub-head {
   font-size: 20px;
   line-height: 28px;
@@ -79,28 +83,22 @@ p {
   margin: 0;
 }
 
-/* --------------- Menu --------------- */
+/* ---------------NavBar --------------- */
 .navbar {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 30px;
   padding: 0;
   margin: 0;
   width: 100%;
   background: transparent;
   z-index: 9999999;
 }
-.navbar .container {
-  background: #fff;
-  border-radius: 0 0 15px 15px;
-  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-}
 .navbar.nav-scroll {
   padding: 0;
   position: fixed;
   top: -80px;
+  padding: 15px 0;
   -webkit-transition: -webkit-transform 0.8s;
   transition: -webkit-transform 0.8s;
   -o-transition: transform 0.8s;
@@ -109,46 +107,37 @@ p {
   -webkit-transform: translateY(80px);
   -ms-transform: translateY(80px);
   transform: translateY(80px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .navbar .logo {
   padding: 7px 15px;
-  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  border: 0px solid #fff;
   border-radius: 30px;
+  width: 300px;
 }
-.navbar .info {
-  margin-right: auto;
+.navbar .navbar-nav {
+  padding: 2px 5px;
+  border-radius: 30px;
+  margin-left: 15px;
 }
-.navbar .info .item {
-  font-size: 13px;
-  text-transform: uppercase;
-  margin-left: 30px;
-  color: #000;
-}
-.navbar .topnav .menu-icon {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  background: #1d1d1d;
-  border-radius: 50%;
-  color: #fff;
-}
-.navbar .topnav .butn {
-  padding: 8px 20px;
-  background: var(--main-color);
-  color: #fff;
-  margin-right: 15px;
-}
-
 .navbar .navbar-nav .nav-link {
   padding: 5px 20px;
   border-radius: 30px;
   font-size: 14px;
   color: #000;
 }
-
+.navbar .navbar-nav .nav-link.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+.navbar .topnav .butn {
+  padding: 7px 20px;
+  background: #fff;
+  color: #1d1d1d;
+  margin-right: 15px;
+}
 /* --------------- header --------------- */
-.header-ds {
+/* .header-ds {
   background-size: cover;
   background-position: bottom;
   background-color: #fff;
@@ -224,7 +213,71 @@ p {
   line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
+} */
+.header-crv {
+  padding-top: 220px;
+  background-image: url(../imgs/header/back.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
+.header-crv .caption {
+  position: relative;
+  text-align: center;
+}
+.header-crv .caption h1 {
+  font-size: 17vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+.header-crv .caption .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 4;
+}
+.header-crv .caption .content .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.header-crv .caption .content .item span {
+  font-size: 16px;
+  padding: 8px 24px;
+  background: #eff0fa;
+  border-radius: 30px;
+}
+.header-crv .caption .content .item span.bdark {
+  background: #777;
+  color: #fff;
+}
+.header-crv .caption .content .item span.bred {
+  background: var(--main-color);
+  color: #fff;
+}
+.header-crv .caption .content .item img {
+  width: 50px;
+}
+.header-crv .caption .content .item .icon1 img {
+  width: 70px;
+}
+.header-crv .mimg {
+  height: 450px;
+  margin-top: 90px;
+  position: relative;
+  z-index: 3;
+}
+
 /* --------------- Clients --------------- */
 .clients-dm {
   margin-bottom: -80px;
@@ -739,7 +792,7 @@ p {
 }
 .intro-iner .img-box .states1 {
   position: absolute;
-  background: #ef6172;
+  background: var(--main-color);
   color: #fff;
   border-radius: 15px;
   z-index: 3;
@@ -817,7 +870,7 @@ p {
   padding-top: 40px;
 }
 .intro-iner .sub-head {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .intro-iner .accordion-item {
   background: transparent;
@@ -1148,7 +1201,7 @@ p {
 .works-ds .sec-head h2 span {
   color: #ef6172;
   font-style: italic;
-  font-family: "playful";
+  font-family: "Playfair Display", serif;
 }
 .works-ds .item:hover .cont h4 {
   color: var(--main-color);
@@ -1398,7 +1451,7 @@ p {
   text-transform: uppercase;
   color: #fff;
 }
-.contact-hed .butn{
+.contact-hed .butn {
   color: #fff;
 }
 .contact-hed .google-map {
@@ -2195,10 +2248,7 @@ p {
 }
 /* --------------- About --------------- */
 .intro-ds {
-  background-image: url("https://ik.imagekit.io/3mt1qppqk/KarmaDev/CTA-bg.svg?updatedAt=1731316641872");
-  background-size: contain;
-  background-position: top;
-  position: relative;
+  background-color: #000;
 }
 .intro-ds .container {
   position: relative;
@@ -2240,7 +2290,7 @@ p {
   line-height: 32px;
 }
 .intro-ds .founders .cont .butn {
-  background-color: #ef6172;
+  background-color:var(--main-color);
   color: #fff;
 }
 .intro-ds .founders .imgs .img {
@@ -2393,7 +2443,7 @@ p {
   padding: 20px;
   text-align: justify;
 }
-.blog .main-post .item{
+.blog .main-post .item {
   width: 1200px;
   display: grid;
   align-items: center;
@@ -2407,10 +2457,10 @@ p {
   font-weight: 700;
   padding: 30px;
 }
-.main-post h4{
+.main-post h4 {
   justify-content: left;
   align-items: start;
-  display:flex ;
+  display: flex;
   text-align: start;
 }
 .main-post .spec-letter {
@@ -2556,11 +2606,11 @@ p {
 .main-post .next-prv-post .thumb-post:last-of-type {
   margin-left: 15px;
 }
-.blog-mp .item .cont a{
+.blog-mp .item .cont a {
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
-.blog-mp .item .img{
+.blog-mp .item .img {
   border-radius: 30px;
 }
 
@@ -2713,7 +2763,7 @@ p {
     overflow: hidden;
     position: relative;
   }
-  .blog .main-post .item{
+  .blog .main-post .item {
     width: 650px;
     margin-left: -160px;
     padding: 20px;
@@ -2730,7 +2780,7 @@ p {
     overflow: hidden;
     position: relative;
   }
-  .blog .main-post .item{
+  .blog .main-post .item {
     margin-left: -160px;
     width: 350px;
     padding: 20px;
