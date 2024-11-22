@@ -304,8 +304,8 @@ p {
   width: 70px;
 }
 .header-crv .mimg {
-  height: 450px;
-  margin-top: 90px;
+  height: 400px;
+  margin-top: 120px;
   position: relative;
   z-index: 3;
 }
@@ -1410,6 +1410,10 @@ p {
   z-index: 3;
 }
 /* --------------- Contact --------------- */
+.contact-sa{
+  margin-bottom: 120px;
+  margin-top: -50px;
+}
 .contact-sa .box {
   padding: 120px 60px;
   background-color: #000;
@@ -1984,6 +1988,7 @@ p {
   line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: -80px;
 }
 /* .clients-sa .title-font {
   font-size: 32px !important;
@@ -2818,6 +2823,10 @@ font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
+   .header-crv .mimg {
+    margin-top: 35px !important;
+    height: 300px;
+  }
   .services-cst {
     margin-top: 60px;
   }
@@ -2892,11 +2901,12 @@ font-weight: 500;
     letter-spacing: normal;
   }
   .clients-sa {
-    margin-top: 80px;
+    margin-top: -60px;
   }
   .clients-sa .title-font {
     font-size: 24px;
     line-height: 28px;
+    
   }
   .intro-ds .founders .cont h4 {
     font-size: 24px;
@@ -3076,6 +3086,10 @@ font-weight: 500;
   }
   .contact-sa .box {
     padding: 120px 40px;
+  }
+  .contact-sa{
+    margin-bottom: 160px;
+    margin-top: -120px;
   }
   .footer-sa .call-action h2 {
     font-size: 35px;

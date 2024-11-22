@@ -117,8 +117,8 @@
   width: 70px;
 }
 .header-crv .mimg {
-  height: 550px;
-  margin-top: 80px;
+  height: 400px;
+  margin-top: 120px;
   position: relative;
   z-index: 3;
 }
@@ -772,9 +772,9 @@ p {
 
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
-  .header-crv .mimg {
+  /* .header-crv .mimg {
     margin-top: -50px;
-  }
+  } */
   .intro-crv .exp h2 {
     margin-bottom: 0;
     font-size: 40vw;
@@ -788,10 +788,10 @@ p {
   .navbar .container {
     padding: 5px 10px;
   }
-  .header-crv .mimg {
+  /* .header-crv .mimg {
     margin-top: -15px;
     height: 300px;
-  }
+  } */
   .intro-crv .exp h2 {
     font-size: 70vw;
   }
