@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 65px;
   line-height: 60px;
   letter-spacing: -2px;
 }
@@ -57,37 +57,64 @@ h5 {
 }
 
 h6 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
 }
 h2 span {
   color: var(--main-color);
   font-style: italic;
   font-family: "Playfair Display", serif;
+  /* font-size: 65px; */
+  font-weight: 400;
 }
 .sub-head {
   font-size: 20px;
   line-height: 28px;
 }
 /* .sec-head h6{
-  color: #ef6172;
+  color: #ea3d50;
 } */
 .sub-color {
   color: #808080;
 }
-
 p {
   color: #494949;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
 }
-
+.butn.butn-bord {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.butn.butn-bord:hover {
+  background: #000;
+  color: #fff;
+}
+.butn.butn-bg {
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  color: #fff;
+}
+.butn.butn-bg:hover {
+  background: transparent;
+  color: inherit;
+}
+.icon.invert img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.butn .icon {
+  width: 18px;
+}
+.butn:hover .icon.invert img {
+  -webkit-filter: invert(0);
+  filter: invert(0);
+}
 /* ---------------NavBar --------------- */
 .navbar {
   position: absolute;
   left: 0;
-  top: 30px;
+  top: 0;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -135,6 +162,11 @@ p {
   background: #fff;
   color: #1d1d1d;
   margin-right: 15px;
+  font-size: 14px;
+}
+.navbar .topnav .butn:hover {
+  background: #000;
+  color: #fff;
 }
 /* --------------- header --------------- */
 /* .header-ds {
@@ -173,7 +205,7 @@ p {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: 400;
-  color: #ef6172;
+  color: #ea3d50;
 }
 .header-ds .social-icon a {
   width: 48px;
@@ -493,7 +525,7 @@ p {
   margin-top: 150px;
 }
 .services-dm .sec-head .text-u {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .services-dm .img-patern {
   position: absolute;
@@ -547,7 +579,7 @@ p {
 }
 /* --------------- Services --------------- */
 .services-ds .container h2 span {
-  color: #ef6172;
+  color: #ea3d50;
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 65px;
@@ -971,7 +1003,7 @@ p {
   text-indent: 20%;
 }
 .intro-crv .sec-head h6 {
-  color: #ef6172;
+  color: #ea3d50;
 }
 
 .intro-crv .sec-head .img-shape {
@@ -1017,7 +1049,7 @@ p {
   transform: translateX(50%) translateY(-50%) rotate(5deg);
 }
 .intro-crv .skills .sub-head h6 {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .intro-crv .skills-box h6 {
   font-size: 13px;
@@ -1131,7 +1163,7 @@ p {
   font-size: 40px;
 }
 .word-card .sec-head .sub-head {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .work-card .card-item1 {
   margin-bottom: 30px;
@@ -1199,7 +1231,7 @@ p {
   width: 75%;
 }
 .works-ds .sec-head h2 span {
-  color: #ef6172;
+  color: #ea3d50;
   font-style: italic;
   font-family: "Playfair Display", serif;
 }
@@ -1251,7 +1283,7 @@ p {
   line-height: 65px;
 }
 .testimonials-mp .sec-head span {
-  color: #ef6172;
+  color: #ea3d50;
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 65px;
@@ -1418,7 +1450,7 @@ p {
   color: #fff;
 }
 .contact-sa .contact-form label .star {
-  color: #ef6172;
+  color: #ea3d50;
   padding-left: 5px;
 }
 
@@ -1514,7 +1546,7 @@ p {
   background: #000 !important;
 }
 .work-hed2 .info .commerce {
-  background-color: #ef6172;
+  background-color: #ea3d50;
   border-radius: 25px;
   padding: 10px 10px 0 10px;
   font-size: 16px;
@@ -1526,7 +1558,7 @@ p {
   position: relative;
 }
 .work-hed2 .caption span {
-  color: #ef6172;
+  color: #ea3d50;
   letter-spacing: normal;
 }
 .work-hed2 .caption h1 span {
@@ -1690,7 +1722,7 @@ p {
   padding-left: 100px;
 }
 .works-dm .sec-head h6 {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .works-dm .item {
   margin-top: 80px;
@@ -1929,7 +1961,7 @@ p {
   border-radius: 15px;
 }
 .blog-sa .sec-head h6 {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .blog-sa .item .cont .info a {
   font-size: 14px;
@@ -1983,7 +2015,7 @@ p {
 .process-mp .sec-head h2 span {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  color: #ef6172;
+  color: #ea3d50;
   font-size: 65px;
   font-weight: 400;
 }
@@ -2073,7 +2105,7 @@ p {
 .services-mp .sec-head h2 span {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  color: #ef6172;
+  color: #ea3d50;
   font-size: 100px;
 }
 .services-mp .sub-head:after {
@@ -2244,7 +2276,7 @@ p {
   .swiper
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #ef6172;
+  background: #ea3d50;
 }
 /* --------------- About --------------- */
 .intro-ds {
@@ -2258,9 +2290,13 @@ p {
 .intro-ds .container .box {
   padding: 60px 80px;
   background: #fff;
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px 15px 15px 15px;
   position: relative;
   z-index: 2;
+}
+.intro-ds .container .founders .cont h4{
+font-size: 36px;
+font-weight: 500;
 }
 .intro-ds .container .layers {
   position: absolute;
@@ -2285,12 +2321,17 @@ p {
   opacity: 0.7;
   z-index: -1;
 }
+.intro-ds .comit .item {
+  display: flex;
+  justify-content: space-evenly;
+}
 .intro-ds .comit .item h6 {
   font-size: 20px;
   line-height: 32px;
+  font-weight: 500;
 }
 .intro-ds .founders .cont .butn {
-  background-color:var(--main-color);
+  background-color: var(--main-color);
   color: #fff;
 }
 .intro-ds .founders .imgs .img {
@@ -2412,7 +2453,7 @@ p {
   color: #fff;
 }
 .services-sa .sec-head h6 {
-  color: #ef6172;
+  color: #ea3d50;
 }
 .post-header .caption .tags a {
   padding: 7px 20px;
@@ -2772,6 +2813,15 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .intro-ds .container .box {
+    padding: 60px 15px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+  }
+  .intro-ds .container .founders .imgs{
+    margin-left: 85px;
+  }
   .post-header .bg-img {
     width: 350px;
     height: 60vh;
