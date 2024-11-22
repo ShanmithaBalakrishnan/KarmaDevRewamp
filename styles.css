@@ -2818,6 +2818,9 @@ font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
+  .services-cst {
+    margin-top: 60px;
+  }
   .sec-head h2 {
     font-size: 40px;
     line-height: 1.2;
@@ -2932,7 +2935,7 @@ font-weight: 500;
     background-image: url("assets/imgs/stages.svg");
   }
   .intro-iner {
-    margin-top: -80px;
+    margin-top: 10px;
   }
   .intro-iner h3 {
     font-size: 40px;
