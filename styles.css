@@ -11,43 +11,52 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
   color: #000;
   background-color: #fff;
 }
-
+butn {
+  font-size: 14px;
+  font-weight: 500;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  font-weight: 400;
+h6,
+p,
+a {
+  /* font-weight: 400; */
   margin: 0;
+  font-family: "Inter", sans-serif !important;
 }
 
 h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 96px;
+  line-height: 96px;
   letter-spacing: -3px;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 65px;
   line-height: 60px;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
+  font-weight: 500 !important;
 }
 
 h3 {
   font-size: 40px;
   line-height: 52px;
   letter-spacing: -2px;
+  font-weight: 600;
 }
 
 h4 {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -1px;
+  font-weight: 600;
 }
 
 h5 {
@@ -57,15 +66,24 @@ h5 {
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 32px;
+  font-weight: 500;
+}
+p {
+  font-size: 16px;
 }
 h2 span {
   color: var(--main-color);
   font-style: italic;
   font-family: "Playfair Display", serif;
-  /* font-size: 65px; */
   font-weight: 400;
+  letter-spacing: -3px;
+}
+h4 span {
+  color: var(--main-color);
+  font-style: italic;
+  font-family: "Playfair Display", serif;
 }
 .sub-head {
   font-size: 20px;
@@ -76,12 +94,6 @@ h2 span {
 } */
 .sub-color {
   color: #808080;
-}
-p {
-  color: #494949;
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0;
 }
 .butn.butn-bord {
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -141,7 +153,7 @@ p {
   padding: 7px 15px;
   border: 0px solid #fff;
   border-radius: 30px;
-  width: 300px;
+  width: 220px;
 }
 .navbar .navbar-nav {
   padding: 2px 5px;
@@ -165,7 +177,7 @@ p {
   font-size: 14px;
 }
 .navbar .topnav .butn:hover {
-  background: #000;
+  background: #ea3d50;
   color: #fff;
 }
 /* --------------- header --------------- */
@@ -364,6 +376,10 @@ p {
 .services-cst .sub-head:after {
   background: #aaa !important;
   color: #000;
+}
+.services-cst .sec-head .butn:hover {
+  background-color: #ea3d50 !important;
+  color: #fff;
 }
 .services-cst .img-patern {
   position: absolute;
@@ -736,6 +752,7 @@ p {
 .intro-iner {
   position: relative;
   margin-top: -30px;
+  margin-bottom: -50px;
 }
 .intro-iner h3 {
   font-size: 40px;
@@ -919,7 +936,7 @@ p {
   background: transparent;
   color: #000;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 32px;
   padding: 30px 0;
   -webkit-box-shadow: none;
@@ -1230,13 +1247,21 @@ p {
 .works-ds .swiper-slide {
   width: 75%;
 }
+.works-ds .sec-head .butn:hover {
+  background-color: #ea3d50;
+  color: #fff;
+}
 .works-ds .sec-head h2 span {
   color: #ea3d50;
   font-style: italic;
   font-family: "Playfair Display", serif;
 }
+.works-ds .item .cont h4 {
+  font-weight: 500;
+}
 .works-ds .item:hover .cont h4 {
   color: var(--main-color);
+  font-weight: 500;
 }
 .works-ds .item .img {
   border-radius: 15px;
@@ -1410,13 +1435,14 @@ p {
   z-index: 3;
 }
 /* --------------- Contact --------------- */
-.contact-sa{
+.contact-sa {
   margin-bottom: 120px;
   margin-top: -50px;
 }
 .contact-sa .box {
   padding: 120px 60px;
-  background-color: #000;
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 15 35 / var(--tw-bg-opacity));
   /* background-image: url(../imgs/gr-back.png); */
   background-size: cover;
   background-position: center center;
@@ -1431,6 +1457,13 @@ p {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -2px;
+}
+.contact-sa a .mail:hover {
+  background-color: #fff !important;
+}
+.contact-sa .sec-head h6 {
+  color: #fff;
+  font-size: 20px;
 }
 .contact-sa .info {
   display: -webkit-box;
@@ -1460,7 +1493,7 @@ p {
 
 .contact-sa .contact-form input,
 .contact-sa .contact-form textarea {
-  color: #fff;
+  color: #ffffff;
   background: transparent;
   width: 100%;
   padding: 0 0 10px;
@@ -1574,7 +1607,8 @@ p {
 }
 /* --------------- footer --------------- */
 .footer-ds {
-  background-color: #000;
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 15 35 / var(--tw-bg-opacity));
   border-color: rgba(255, 255, 255, 0.3);
 }
 .footer-ds h6 {
@@ -1627,7 +1661,7 @@ p {
 .footer-ds .contact-info .item p {
   font-size: 14px;
   margin-top: 5px;
-  color: #808080;
+  color: #ffffff;
 }
 .footer-ds .contact-info .item p:hover {
   color: #fff;
@@ -1636,18 +1670,17 @@ p {
   width: 50px;
 }
 .footer-ds .sub-footer .copy p {
+  color: #bbb;
   font-size: 14px;
 }
 .footer-ds .sub-footer .copy p a {
-  color: #fff;
+  color: #ffffff;
 }
 .footer-ds .sub-footer .links {
   width: 100%;
 }
 .footer-ds .sub-footer .links a {
   font-size: 14px;
-}
-.footer-ds .sub-footer .links a:hover {
   color: #fff;
 }
 .footer-sa .call-action h2 {
@@ -1707,7 +1740,6 @@ p {
 .footer-sa .sub-footer .copy p a {
   color: #fff;
 }
-
 .footer-sa .sub-footer .links {
   width: 100%;
 }
@@ -2009,6 +2041,10 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
+.clients-sa .butn:hover {
+  background-color: #ea3d50 !important;
+  color: #fff;
+}
 /* --------------- Process --------------- */
 .process-mp .sec-head .butn {
   border-color: #fff;
@@ -2285,7 +2321,8 @@ p {
 }
 /* --------------- About --------------- */
 .intro-ds {
-  background-color: #000;
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 15 35 / var(--tw-bg-opacity));
 }
 .intro-ds .container {
   position: relative;
@@ -2299,10 +2336,15 @@ p {
   position: relative;
   z-index: 2;
 }
-.intro-ds .container .founders .cont h4{
-font-size: 36px;
-font-weight: 500;
+.intro-ds .container .founders .cont h4 {
+  font-size: 36px;
+  font-weight: 600;
 }
+.intro-ds .container .founders .cont .butn:hover {
+  background-color: #ea3d50 !important;
+  color: #fff;
+}
+
 .intro-ds .container .layers {
   position: absolute;
   top: -10px;
@@ -2336,12 +2378,12 @@ font-weight: 500;
   font-weight: 500;
 }
 .intro-ds .founders .cont .butn {
-  background-color:#fff;
+  background-color: #fff;
   color: #000;
   border: 1px solid #ccc;
 }
 .intro-ds .founders .cont .butn:hover {
-  background-color:#000;
+  background-color: #000;
   color: #fff;
 }
 .intro-ds .founders .imgs .img {
@@ -2359,8 +2401,8 @@ font-weight: 500;
   -o-object-position: center;
   object-position: center;
 }
-.intro-ds .founders .imgs .img.img2 {
-  margin-left: -15px;
+.intro-ds .founders .imgs .img.img1 {
+  margin-left: 45px;
   position: relative;
   z-index: -1;
 }
@@ -2823,7 +2865,10 @@ font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
-   .header-crv .mimg {
+  h4 span {
+    font-size: 20px;
+  }
+  .header-crv .mimg {
     margin-top: 35px !important;
     height: 300px;
   }
@@ -2833,14 +2878,14 @@ font-weight: 500;
   .sec-head h2 {
     font-size: 40px;
     line-height: 1.2;
-}
+  }
   .intro-ds .container .box {
     padding: 60px 15px;
     display: grid;
     align-items: center;
     text-align: center;
   }
-  .intro-ds .container .founders .imgs{
+  .intro-ds .container .founders .imgs .img1 {
     margin-left: 85px;
   }
   .post-header .bg-img {
@@ -2882,6 +2927,10 @@ font-weight: 500;
     line-height: 40px;
     font-size: 30px !important;
   }
+  .intro-iner {
+    margin-top: -120px !important;
+    margin-bottom: -180px;
+  }
   .intro-iner .img {
     height: 480px;
     width: 350px;
@@ -2906,7 +2955,6 @@ font-weight: 500;
   .clients-sa .title-font {
     font-size: 24px;
     line-height: 28px;
-    
   }
   .intro-ds .founders .cont h4 {
     font-size: 24px;
@@ -3016,6 +3064,9 @@ font-weight: 500;
   .header-ds .numb span br {
     display: none;
   }
+  .services-cst {
+    margin-top: -150px;
+  }
   .services-cst .sec-head h6 {
     line-height: 20px !important;
     font-size: 18px !important;
@@ -3087,7 +3138,7 @@ font-weight: 500;
   .contact-sa .box {
     padding: 120px 40px;
   }
-  .contact-sa{
+  .contact-sa {
     margin-bottom: 160px;
     margin-top: -120px;
   }
