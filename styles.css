@@ -2865,6 +2865,9 @@ h4 span {
 }
 
 @media screen and (max-width: 768px) {
+  h4 {
+    font-size: 20px;
+  }
   h4 span {
     font-size: 20px;
   }
